@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Route } from 'react-router-dom'
+import {BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom'
 import './App.css';
 
 const ExpenseDashboardPage = () => (
@@ -26,6 +26,28 @@ const HelpPage = () => (
   </div>
 );
 
+const NotFoundPage = () => (
+  <div>
+    404! <Link to="/">Go Home</Link>
+  </div>
+);
+
+const Header = () => (
+  <header>
+    <h1>Budget app!</h1>
+    <nav>
+      <ul>
+        <li><NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink></li>
+        <li><NavLink to="/create" activeClassName="is-active">Create Expense</NavLink></li>
+        <li><NavLink to="/edit" activeClassName="is-active">Edit Expense</NavLink></li>
+        <li><NavLink to="/help" activeClassName="is-active">Help</NavLink></li>
+      </ul>
+    </nav>
+  </header>
+)
+
+
+
 class App extends Component {
 
   render() {
@@ -33,11 +55,16 @@ class App extends Component {
       
         <BrowserRouter>
         <div>
+          <Header />
+          <Switch>
           <Route path="/" component={ExpenseDashboardPage} exact={true}/>
           <Route path="/create" component={CreateExpensesPage}/>
           <Route path="/edit" component={EditExpensesPage}/>
           <Route path="/help" component={HelpPage}/>
-          </div>
+          <Route component={NotFoundPage}/>
+          </Switch>
+        </div>
+        
         </BrowserRouter>
       
     );
