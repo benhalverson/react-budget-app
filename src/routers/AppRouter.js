@@ -7,7 +7,6 @@ import HelpPage from '../components/HelpPage';
 import Header from '../components/Header';
 import NotFoundPage from '../components/NotFoundPage';
 import '../App.css';
-
 const AppRouter = () => (
   <BrowserRouter>
   <div>
