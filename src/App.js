@@ -8,9 +8,10 @@ import getVisibleExpenses from './selectors/expenses';
 import './App.css';
 const store = configureStore();
 
-store.dispatch(addExpense({ description: 'Water bill'}));
-store.dispatch(addExpense({ description: 'Gas bill'}));
-store.dispatch(setTextFilter('water'));
+store.dispatch(addExpense({ description: 'Water bill', amount: 4500}));
+store.dispatch(addExpense({ description: 'Rent', amount: 200000}));
+store.dispatch(addExpense({ description: 'Gas bill', amount: 8600, createdAt: 1000}));
+
 
 class App extends Component {
   render() {
