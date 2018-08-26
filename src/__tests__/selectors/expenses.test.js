@@ -27,7 +27,7 @@ const expenses = [
       .add(4, 'days')
       .valueOf()
   }
-];
+]; 
 
 test('should filter by text value', () => {
   const filters = {
