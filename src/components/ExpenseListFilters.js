@@ -50,6 +50,8 @@ class ExpenseListFilters extends Component {
           numberOfMonths={1}
           isOutsideRange={() => false}
           showClearDates={true}
+          startDateId={'START_DATE'}
+          endDateId={'END_DATE'}
         />
       </div>
     );
