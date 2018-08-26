@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import ExpenseForm from './ExpenseForm';
-import { editExpense } from '../actions/expenses';
+import { editExpense, removeExpense } from '../actions/expenses';
 const EditExpensesPage = props => {
   console.log(props);
   return (
@@ -15,6 +15,15 @@ const EditExpensesPage = props => {
           //redirect back to dashboard
         }}
       />
+
+      <button
+        onClick={() => {
+          props.dispatch(removeExpense({ id: props.expense.id }));
+          props.history.push('/');
+        }}
+      >
+        Remove
+      </button>
     </div>
   );
 };
