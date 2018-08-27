@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 import { SingleDatePicker } from 'react-dates';
-import 'react-dates/lib/css/_datepicker.css';
 import 'react-dates/initialize';
+import ErrorBoundary from './ErrorBoundary';
 
 class ExpenseForm extends Component {
   constructor(props) {
@@ -76,14 +76,17 @@ class ExpenseForm extends Component {
             value={this.state.amount}
             onChange={this.onAmountChange}
           />
-          <SingleDatePicker
-            date={this.state.createdAt}
-            onDateChange={this.onDateChange}
-            focused={this.state.calendarfocused}
-            onFocusChange={this.onFocusChange}
-            numberOfMonths={1}
-            isOutsideRange={() => false}
-          />
+          <ErrorBoundary>
+            <SingleDatePicker
+              date={this.state.createdAt}
+              onDateChange={this.onDateChange}
+              focused={this.state.calendarfocused}
+              onFocusChange={this.onFocusChange}
+              numberOfMonths={1}
+              isOutsideRange={() => false}
+            />
+          </ErrorBoundary>
+
           <textarea
             placeholder="Add a note for your expense"
             value={this.state.note}
