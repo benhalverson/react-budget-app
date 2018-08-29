@@ -21,7 +21,7 @@ export class CreateExpensePage extends Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  onSubmit: (expense) => dispatch(addExpense(expense))
+  addExpense: (expense) => dispatch(addExpense(expense))
 });
 
 export default connect(undefined, mapDispatchToProps)(CreateExpensePage);
