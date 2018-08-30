@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "moment": "2.22.2",
+    "numeral": "2.0.6",
     "react": "^16.4.2",
     "react-addons-shallow-compare": "15.6.2",
     "react-dates": "17.2.0",
