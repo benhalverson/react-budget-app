@@ -9,7 +9,7 @@ import {
   setEndDate
 } from '../actions/filters';
 
-class ExpenseListFilters extends Component {
+export class ExpenseListFilters extends Component {
   state = {
     calendarFocused: null
   };
@@ -24,7 +24,6 @@ class ExpenseListFilters extends Component {
   };
 
   onTextChange = e => {
-    e.preventDefault();
     this.props.setTextFilter(e.target.value);
   };
 
