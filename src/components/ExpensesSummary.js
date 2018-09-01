@@ -1,4 +1,3 @@
-// ts-check
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -29,7 +28,6 @@ export const ExpensesSummary = ({ expenseCount, expensesTotal }) => {
 
 const mapStateToProps = state => {
   const visibleExpenses = selectExpenses(state.expenses, state.filters);
-  console.log(visibleExpenses)
   return {
     expenseCount: visibleExpenses.length,
     expensesTotal: selectExpensesTotal(visibleExpenses)

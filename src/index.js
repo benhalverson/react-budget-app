@@ -12,7 +12,6 @@ store.dispatch(startSetExpenses()).then(() => {
   ReactDOM.render(<App store={store}/>, document.getElementById('root'));
 })
 
-registerServiceWorker();
 
 if (process.env.NODE_ENV === 'test') {
   require('dotenv').config({ path: '.env.test'});
