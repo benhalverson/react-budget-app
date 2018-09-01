@@ -1,12 +1,12 @@
 import * as firebase from 'firebase';
 
-const config ={
-  apiKey: "AIzaSyAhwW-e5dLuo4A68jq0iXVnFewO8cB7KrE",
-  authDomain: "budget-app-67066.firebaseapp.com",
-  databaseURL: "https://budget-app-67066.firebaseio.com",
-  projectId: "budget-app-67066",
-  storageBucket: "budget-app-67066.appspot.com",
-  messagingSenderId: "822299686467"
+const config = {
+  apiKey: process.env.REACT_APP_APIKEY,
+  authDomain: process.env.REACT_APP_AUTHDOMAIN,
+  databaseURL: process.env.REACT_APP_DATABASEURL,
+  projectId: process.env.REACT_APP_PROJECTID,
+  storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID
 };
 firebase.initializeApp(config);
 
