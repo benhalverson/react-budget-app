@@ -1,33 +1,5 @@
-import moment from 'moment';
 import expensesReducer from '../../reducers/expenses';
-
-const expenses = [
-  {
-    id: '1',
-    description: 'Gum',
-    note: '',
-    amount: 195,
-    createdAt: 0
-  },
-  {
-    id: '2',
-    description: 'Rent',
-    note: '',
-    amount: 109500,
-    createdAt: moment(0)
-      .subtract(4, 'days')
-      .valueOf()
-  },
-  {
-    id: '3',
-    description: 'Credit Card',
-    note: '',
-    amount: 4500,
-    createdAt: moment(0)
-      .add(4, 'days')
-      .valueOf()
-  }
-];
+import expenses from '../../__fixtures__/expenses';
 
 test('should set default state', () => {
   const state = expensesReducer(undefined, { type: '@@INIT' });
@@ -99,3 +71,11 @@ test('should not edit expense if expense not found', () => {
   expect(state).toEqual(expenses);
 });
 
+xtest('should set expense', () => {
+  const action = {
+    type: 'SET_EXPENSE',
+    expenses: [expenses[0]]
+  };
+  const state = expensesReducer(expenses, action);
+  expect(state).toEqual([expenses[0]]);
+})
