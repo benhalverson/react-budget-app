@@ -1,4 +1,5 @@
 ## API keys are required from firebase 
+https://firebase.google.com/docs/web/setup?authuser=0
 REACT_APP_APIKEY=
 
 REACT_APP_AUTHDOMAIN=
