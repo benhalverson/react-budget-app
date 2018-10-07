@@ -1,0 +1,13 @@
+version: '3.2'
+services:
+  app:
+    container_name: react-budget
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - ./.env.test
+    volumes:
+      - '/usr/src/app/node_modules'
+    ports:
+      - '3000:3000'
