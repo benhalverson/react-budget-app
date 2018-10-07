@@ -5,12 +5,12 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <CreateExpensePage
     history={
-        Object {
-            "push": [Function],
-          }
+      Object {
+        "push": [MockFunction],
+      }
     }
-    startAddExpense={[Function]}
-/>,
+    startAddExpense={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -26,10 +26,10 @@ ShallowWrapper {
       "children": Array [
         <h1>
           Add Expense
-</h1>,
+        </h1>,
         <ExpenseForm
           onSubmit={[Function]}
-/>,
+        />,
       ],
     },
     "ref": null,
@@ -68,10 +68,10 @@ ShallowWrapper {
         "children": Array [
           <h1>
             Add Expense
-</h1>,
+          </h1>,
           <ExpenseForm
             onSubmit={[Function]}
-/>,
+          />,
         ],
       },
       "ref": null,

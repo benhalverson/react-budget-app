@@ -25,14 +25,14 @@ ShallowWrapper {
           placeholder="Description"
           type="text"
           value=""
-/>,
+        />,
         <input
           className="text-input"
           onChange={[Function]}
           placeholder="Amount"
           type="text"
           value=""
-/>,
+        />,
         <withStyles(SingleDatePicker)
           anchorDirection="left"
           appendToBody={false}
@@ -41,7 +41,6 @@ ShallowWrapper {
           customCloseIcon={null}
           customInputIcon={null}
           date={"1970-01-01T00:00:00.000Z"}
-          dayAriaLabelFormat={undefined}
           daySize={39}
           disableScroll={false}
           disabled={false}
@@ -74,40 +73,39 @@ ShallowWrapper {
           openDirection="down"
           orientation="horizontal"
           phrases={
-                    Object {
-                              "calendarLabel": "Calendar",
-                              "chooseAvailableDate": [Function],
-                              "clearDate": "Clear Date",
-                              "closeDatePicker": "Close",
-                              "dateIsSelected": [Function],
-                              "dateIsUnavailable": [Function],
-                              "enterKey": "Enter key",
-                              "escape": "Escape key",
-                              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                              "homeEnd": "Home and end keys",
-                              "jumpToNextMonth": "Move forward to switch to the next month.",
-                              "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                      select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                              "keyboardShortcuts": "Keyboard Shortcuts",
-                              "leftArrowRightArrow": "Right and left arrow keys",
-                              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                              "moveFocusByOneMonth": "Switch months.",
-                              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                              "openThisPanel": "Open this panel.",
-                              "pageUpPageDown": "page up and page down keys",
-                              "questionMark": "Question mark",
-                              "returnFocusToInput": "Return to the date input field.",
-                              "selectFocusedDate": "Select the date in focus.",
-                              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                              "upArrowDownArrow": "up and down arrow keys",
-                            }
+            Object {
+              "calendarLabel": "Calendar",
+              "chooseAvailableDate": [Function],
+              "clearDate": "Clear Date",
+              "closeDatePicker": "Close",
+              "dateIsSelected": [Function],
+              "dateIsUnavailable": [Function],
+              "enterKey": "Enter key",
+              "escape": "Escape key",
+              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+              "homeEnd": "Home and end keys",
+              "jumpToNextMonth": "Move forward to switch to the next month.",
+              "jumpToPrevMonth": "Move backward to switch to the previous month.",
+              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+              "keyboardShortcuts": "Keyboard Shortcuts",
+              "leftArrowRightArrow": "Right and left arrow keys",
+              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+              "moveFocusByOneMonth": "Switch months.",
+              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+              "openThisPanel": "Open this panel.",
+              "pageUpPageDown": "page up and page down keys",
+              "questionMark": "Question mark",
+              "returnFocusToInput": "Return to the date input field.",
+              "selectFocusedDate": "Select the date in focus.",
+              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+              "upArrowDownArrow": "up and down arrow keys",
+            }
           }
           placeholder="Date"
           readOnly={false}
           regular={false}
-          renderCalendarDay={undefined}
           renderCalendarInfo={null}
           renderDayContents={null}
           renderMonthElement={null}
@@ -118,26 +116,25 @@ ShallowWrapper {
           showClearDate={false}
           showDefaultInputIcon={false}
           small={false}
-          transitionDuration={undefined}
           verticalHeight={null}
           verticalSpacing={22}
           weekDayFormat="dd"
           withFullScreenPortal={false}
           withPortal={false}
-/>,
+        />,
         <textarea
           className="textarea"
           onChange={[Function]}
           placeholder="Add a note for your expense (optional)"
           value=""
-/>,
+        />,
         <div>
           <button
-                    className="button"
+            className="button"
           >
-                    Save Expense
+            Save Expense
           </button>
-</div>,
+        </div>,
       ],
       "className": "form",
       "onSubmit": [Function],
@@ -295,9 +292,9 @@ ShallowWrapper {
         "props": Object {
           "children": <button
             className="button"
->
+          >
             Save Expense
-</button>,
+          </button>,
         },
         "ref": null,
         "rendered": Object {
@@ -332,14 +329,14 @@ ShallowWrapper {
             placeholder="Description"
             type="text"
             value=""
-/>,
+          />,
           <input
             className="text-input"
             onChange={[Function]}
             placeholder="Amount"
             type="text"
             value=""
-/>,
+          />,
           <withStyles(SingleDatePicker)
             anchorDirection="left"
             appendToBody={false}
@@ -348,7 +345,6 @@ ShallowWrapper {
             customCloseIcon={null}
             customInputIcon={null}
             date={"1970-01-01T00:00:00.000Z"}
-            dayAriaLabelFormat={undefined}
             daySize={39}
             disableScroll={false}
             disabled={false}
@@ -381,40 +377,39 @@ ShallowWrapper {
             openDirection="down"
             orientation="horizontal"
             phrases={
-                        Object {
-                                    "calendarLabel": "Calendar",
-                                    "chooseAvailableDate": [Function],
-                                    "clearDate": "Clear Date",
-                                    "closeDatePicker": "Close",
-                                    "dateIsSelected": [Function],
-                                    "dateIsUnavailable": [Function],
-                                    "enterKey": "Enter key",
-                                    "escape": "Escape key",
-                                    "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                                    "homeEnd": "Home and end keys",
-                                    "jumpToNextMonth": "Move forward to switch to the next month.",
-                                    "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                                    "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                          select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                                    "keyboardShortcuts": "Keyboard Shortcuts",
-                                    "leftArrowRightArrow": "Right and left arrow keys",
-                                    "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                                    "moveFocusByOneMonth": "Switch months.",
-                                    "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                                    "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                                    "openThisPanel": "Open this panel.",
-                                    "pageUpPageDown": "page up and page down keys",
-                                    "questionMark": "Question mark",
-                                    "returnFocusToInput": "Return to the date input field.",
-                                    "selectFocusedDate": "Select the date in focus.",
-                                    "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                                    "upArrowDownArrow": "up and down arrow keys",
-                                  }
+              Object {
+                "calendarLabel": "Calendar",
+                "chooseAvailableDate": [Function],
+                "clearDate": "Clear Date",
+                "closeDatePicker": "Close",
+                "dateIsSelected": [Function],
+                "dateIsUnavailable": [Function],
+                "enterKey": "Enter key",
+                "escape": "Escape key",
+                "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                "homeEnd": "Home and end keys",
+                "jumpToNextMonth": "Move forward to switch to the next month.",
+                "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                "keyboardShortcuts": "Keyboard Shortcuts",
+                "leftArrowRightArrow": "Right and left arrow keys",
+                "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                "moveFocusByOneMonth": "Switch months.",
+                "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                "openThisPanel": "Open this panel.",
+                "pageUpPageDown": "page up and page down keys",
+                "questionMark": "Question mark",
+                "returnFocusToInput": "Return to the date input field.",
+                "selectFocusedDate": "Select the date in focus.",
+                "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                "upArrowDownArrow": "up and down arrow keys",
+              }
             }
             placeholder="Date"
             readOnly={false}
             regular={false}
-            renderCalendarDay={undefined}
             renderCalendarInfo={null}
             renderDayContents={null}
             renderMonthElement={null}
@@ -425,26 +420,25 @@ ShallowWrapper {
             showClearDate={false}
             showDefaultInputIcon={false}
             small={false}
-            transitionDuration={undefined}
             verticalHeight={null}
             verticalSpacing={22}
             weekDayFormat="dd"
             withFullScreenPortal={false}
             withPortal={false}
-/>,
+          />,
           <textarea
             className="textarea"
             onChange={[Function]}
             placeholder="Add a note for your expense (optional)"
             value=""
-/>,
+          />,
           <div>
             <button
-                        className="button"
+              className="button"
             >
-                        Save Expense
+              Save Expense
             </button>
-</div>,
+          </div>,
         ],
         "className": "form",
         "onSubmit": [Function],
@@ -602,9 +596,9 @@ ShallowWrapper {
           "props": Object {
             "children": <button
               className="button"
->
+            >
               Save Expense
-</button>,
+            </button>,
           },
           "ref": null,
           "rendered": Object {
@@ -652,15 +646,15 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseForm
     expense={
-        Object {
-            "amount": 109500,
-            "createdAt": -345600000,
-            "description": "Rent",
-            "id": "2",
-            "note": "",
-          }
+      Object {
+        "amount": 109500,
+        "createdAt": -345600000,
+        "description": "Rent",
+        "id": "2",
+        "note": "",
+      }
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -682,14 +676,14 @@ ShallowWrapper {
           placeholder="Description"
           type="text"
           value="Rent"
-/>,
+        />,
         <input
           className="text-input"
           onChange={[Function]}
           placeholder="Amount"
           type="text"
           value="1095"
-/>,
+        />,
         <withStyles(SingleDatePicker)
           anchorDirection="left"
           appendToBody={false}
@@ -698,7 +692,6 @@ ShallowWrapper {
           customCloseIcon={null}
           customInputIcon={null}
           date={"1969-12-28T00:00:00.000Z"}
-          dayAriaLabelFormat={undefined}
           daySize={39}
           disableScroll={false}
           disabled={false}
@@ -731,40 +724,39 @@ ShallowWrapper {
           openDirection="down"
           orientation="horizontal"
           phrases={
-                    Object {
-                              "calendarLabel": "Calendar",
-                              "chooseAvailableDate": [Function],
-                              "clearDate": "Clear Date",
-                              "closeDatePicker": "Close",
-                              "dateIsSelected": [Function],
-                              "dateIsUnavailable": [Function],
-                              "enterKey": "Enter key",
-                              "escape": "Escape key",
-                              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                              "homeEnd": "Home and end keys",
-                              "jumpToNextMonth": "Move forward to switch to the next month.",
-                              "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                      select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                              "keyboardShortcuts": "Keyboard Shortcuts",
-                              "leftArrowRightArrow": "Right and left arrow keys",
-                              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                              "moveFocusByOneMonth": "Switch months.",
-                              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                              "openThisPanel": "Open this panel.",
-                              "pageUpPageDown": "page up and page down keys",
-                              "questionMark": "Question mark",
-                              "returnFocusToInput": "Return to the date input field.",
-                              "selectFocusedDate": "Select the date in focus.",
-                              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                              "upArrowDownArrow": "up and down arrow keys",
-                            }
+            Object {
+              "calendarLabel": "Calendar",
+              "chooseAvailableDate": [Function],
+              "clearDate": "Clear Date",
+              "closeDatePicker": "Close",
+              "dateIsSelected": [Function],
+              "dateIsUnavailable": [Function],
+              "enterKey": "Enter key",
+              "escape": "Escape key",
+              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+              "homeEnd": "Home and end keys",
+              "jumpToNextMonth": "Move forward to switch to the next month.",
+              "jumpToPrevMonth": "Move backward to switch to the previous month.",
+              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+              "keyboardShortcuts": "Keyboard Shortcuts",
+              "leftArrowRightArrow": "Right and left arrow keys",
+              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+              "moveFocusByOneMonth": "Switch months.",
+              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+              "openThisPanel": "Open this panel.",
+              "pageUpPageDown": "page up and page down keys",
+              "questionMark": "Question mark",
+              "returnFocusToInput": "Return to the date input field.",
+              "selectFocusedDate": "Select the date in focus.",
+              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+              "upArrowDownArrow": "up and down arrow keys",
+            }
           }
           placeholder="Date"
           readOnly={false}
           regular={false}
-          renderCalendarDay={undefined}
           renderCalendarInfo={null}
           renderDayContents={null}
           renderMonthElement={null}
@@ -775,26 +767,25 @@ ShallowWrapper {
           showClearDate={false}
           showDefaultInputIcon={false}
           small={false}
-          transitionDuration={undefined}
           verticalHeight={null}
           verticalSpacing={22}
           weekDayFormat="dd"
           withFullScreenPortal={false}
           withPortal={false}
-/>,
+        />,
         <textarea
           className="textarea"
           onChange={[Function]}
           placeholder="Add a note for your expense (optional)"
           value=""
-/>,
+        />,
         <div>
           <button
-                    className="button"
+            className="button"
           >
-                    Save Expense
+            Save Expense
           </button>
-</div>,
+        </div>,
       ],
       "className": "form",
       "onSubmit": [Function],
@@ -952,9 +943,9 @@ ShallowWrapper {
         "props": Object {
           "children": <button
             className="button"
->
+          >
             Save Expense
-</button>,
+          </button>,
         },
         "ref": null,
         "rendered": Object {
@@ -989,14 +980,14 @@ ShallowWrapper {
             placeholder="Description"
             type="text"
             value="Rent"
-/>,
+          />,
           <input
             className="text-input"
             onChange={[Function]}
             placeholder="Amount"
             type="text"
             value="1095"
-/>,
+          />,
           <withStyles(SingleDatePicker)
             anchorDirection="left"
             appendToBody={false}
@@ -1005,7 +996,6 @@ ShallowWrapper {
             customCloseIcon={null}
             customInputIcon={null}
             date={"1969-12-28T00:00:00.000Z"}
-            dayAriaLabelFormat={undefined}
             daySize={39}
             disableScroll={false}
             disabled={false}
@@ -1038,40 +1028,39 @@ ShallowWrapper {
             openDirection="down"
             orientation="horizontal"
             phrases={
-                        Object {
-                                    "calendarLabel": "Calendar",
-                                    "chooseAvailableDate": [Function],
-                                    "clearDate": "Clear Date",
-                                    "closeDatePicker": "Close",
-                                    "dateIsSelected": [Function],
-                                    "dateIsUnavailable": [Function],
-                                    "enterKey": "Enter key",
-                                    "escape": "Escape key",
-                                    "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                                    "homeEnd": "Home and end keys",
-                                    "jumpToNextMonth": "Move forward to switch to the next month.",
-                                    "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                                    "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                          select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                                    "keyboardShortcuts": "Keyboard Shortcuts",
-                                    "leftArrowRightArrow": "Right and left arrow keys",
-                                    "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                                    "moveFocusByOneMonth": "Switch months.",
-                                    "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                                    "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                                    "openThisPanel": "Open this panel.",
-                                    "pageUpPageDown": "page up and page down keys",
-                                    "questionMark": "Question mark",
-                                    "returnFocusToInput": "Return to the date input field.",
-                                    "selectFocusedDate": "Select the date in focus.",
-                                    "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                                    "upArrowDownArrow": "up and down arrow keys",
-                                  }
+              Object {
+                "calendarLabel": "Calendar",
+                "chooseAvailableDate": [Function],
+                "clearDate": "Clear Date",
+                "closeDatePicker": "Close",
+                "dateIsSelected": [Function],
+                "dateIsUnavailable": [Function],
+                "enterKey": "Enter key",
+                "escape": "Escape key",
+                "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                "homeEnd": "Home and end keys",
+                "jumpToNextMonth": "Move forward to switch to the next month.",
+                "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                "keyboardShortcuts": "Keyboard Shortcuts",
+                "leftArrowRightArrow": "Right and left arrow keys",
+                "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                "moveFocusByOneMonth": "Switch months.",
+                "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                "openThisPanel": "Open this panel.",
+                "pageUpPageDown": "page up and page down keys",
+                "questionMark": "Question mark",
+                "returnFocusToInput": "Return to the date input field.",
+                "selectFocusedDate": "Select the date in focus.",
+                "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                "upArrowDownArrow": "up and down arrow keys",
+              }
             }
             placeholder="Date"
             readOnly={false}
             regular={false}
-            renderCalendarDay={undefined}
             renderCalendarInfo={null}
             renderDayContents={null}
             renderMonthElement={null}
@@ -1082,26 +1071,25 @@ ShallowWrapper {
             showClearDate={false}
             showDefaultInputIcon={false}
             small={false}
-            transitionDuration={undefined}
             verticalHeight={null}
             verticalSpacing={22}
             weekDayFormat="dd"
             withFullScreenPortal={false}
             withPortal={false}
-/>,
+          />,
           <textarea
             className="textarea"
             onChange={[Function]}
             placeholder="Add a note for your expense (optional)"
             value=""
-/>,
+          />,
           <div>
             <button
-                        className="button"
+              className="button"
             >
-                        Save Expense
+              Save Expense
             </button>
-</div>,
+          </div>,
         ],
         "className": "form",
         "onSubmit": [Function],
@@ -1259,9 +1247,9 @@ ShallowWrapper {
           "props": Object {
             "children": <button
               className="button"
->
+            >
               Save Expense
-</button>,
+            </button>,
           },
           "ref": null,
           "rendered": Object {
@@ -1329,14 +1317,14 @@ ShallowWrapper {
           placeholder="Description"
           type="text"
           value=""
-/>,
+        />,
         <input
           className="text-input"
           onChange={[Function]}
           placeholder="Amount"
           type="text"
           value=""
-/>,
+        />,
         <withStyles(SingleDatePicker)
           anchorDirection="left"
           appendToBody={false}
@@ -1345,7 +1333,6 @@ ShallowWrapper {
           customCloseIcon={null}
           customInputIcon={null}
           date={"1970-01-01T00:00:00.000Z"}
-          dayAriaLabelFormat={undefined}
           daySize={39}
           disableScroll={false}
           disabled={false}
@@ -1378,40 +1365,39 @@ ShallowWrapper {
           openDirection="down"
           orientation="horizontal"
           phrases={
-                    Object {
-                              "calendarLabel": "Calendar",
-                              "chooseAvailableDate": [Function],
-                              "clearDate": "Clear Date",
-                              "closeDatePicker": "Close",
-                              "dateIsSelected": [Function],
-                              "dateIsUnavailable": [Function],
-                              "enterKey": "Enter key",
-                              "escape": "Escape key",
-                              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                              "homeEnd": "Home and end keys",
-                              "jumpToNextMonth": "Move forward to switch to the next month.",
-                              "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                      select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                              "keyboardShortcuts": "Keyboard Shortcuts",
-                              "leftArrowRightArrow": "Right and left arrow keys",
-                              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                              "moveFocusByOneMonth": "Switch months.",
-                              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                              "openThisPanel": "Open this panel.",
-                              "pageUpPageDown": "page up and page down keys",
-                              "questionMark": "Question mark",
-                              "returnFocusToInput": "Return to the date input field.",
-                              "selectFocusedDate": "Select the date in focus.",
-                              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                              "upArrowDownArrow": "up and down arrow keys",
-                            }
+            Object {
+              "calendarLabel": "Calendar",
+              "chooseAvailableDate": [Function],
+              "clearDate": "Clear Date",
+              "closeDatePicker": "Close",
+              "dateIsSelected": [Function],
+              "dateIsUnavailable": [Function],
+              "enterKey": "Enter key",
+              "escape": "Escape key",
+              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+              "homeEnd": "Home and end keys",
+              "jumpToNextMonth": "Move forward to switch to the next month.",
+              "jumpToPrevMonth": "Move backward to switch to the previous month.",
+              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+              "keyboardShortcuts": "Keyboard Shortcuts",
+              "leftArrowRightArrow": "Right and left arrow keys",
+              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+              "moveFocusByOneMonth": "Switch months.",
+              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+              "openThisPanel": "Open this panel.",
+              "pageUpPageDown": "page up and page down keys",
+              "questionMark": "Question mark",
+              "returnFocusToInput": "Return to the date input field.",
+              "selectFocusedDate": "Select the date in focus.",
+              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+              "upArrowDownArrow": "up and down arrow keys",
+            }
           }
           placeholder="Date"
           readOnly={false}
           regular={false}
-          renderCalendarDay={undefined}
           renderCalendarInfo={null}
           renderDayContents={null}
           renderMonthElement={null}
@@ -1422,26 +1408,25 @@ ShallowWrapper {
           showClearDate={false}
           showDefaultInputIcon={false}
           small={false}
-          transitionDuration={undefined}
           verticalHeight={null}
           verticalSpacing={22}
           weekDayFormat="dd"
           withFullScreenPortal={false}
           withPortal={false}
-/>,
+        />,
         <textarea
           className="textarea"
           onChange={[Function]}
           placeholder="Add a note for your expense (optional)"
           value=""
-/>,
+        />,
         <div>
           <button
-                    className="button"
+            className="button"
           >
-                    Save Expense
+            Save Expense
           </button>
-</div>,
+        </div>,
       ],
       "className": "form",
       "onSubmit": [Function],
@@ -1599,9 +1584,9 @@ ShallowWrapper {
         "props": Object {
           "children": <button
             className="button"
->
+          >
             Save Expense
-</button>,
+          </button>,
         },
         "ref": null,
         "rendered": Object {
@@ -1636,14 +1621,14 @@ ShallowWrapper {
             placeholder="Description"
             type="text"
             value=""
-/>,
+          />,
           <input
             className="text-input"
             onChange={[Function]}
             placeholder="Amount"
             type="text"
             value=""
-/>,
+          />,
           <withStyles(SingleDatePicker)
             anchorDirection="left"
             appendToBody={false}
@@ -1652,7 +1637,6 @@ ShallowWrapper {
             customCloseIcon={null}
             customInputIcon={null}
             date={"1970-01-01T00:00:00.000Z"}
-            dayAriaLabelFormat={undefined}
             daySize={39}
             disableScroll={false}
             disabled={false}
@@ -1685,40 +1669,39 @@ ShallowWrapper {
             openDirection="down"
             orientation="horizontal"
             phrases={
-                        Object {
-                                    "calendarLabel": "Calendar",
-                                    "chooseAvailableDate": [Function],
-                                    "clearDate": "Clear Date",
-                                    "closeDatePicker": "Close",
-                                    "dateIsSelected": [Function],
-                                    "dateIsUnavailable": [Function],
-                                    "enterKey": "Enter key",
-                                    "escape": "Escape key",
-                                    "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                                    "homeEnd": "Home and end keys",
-                                    "jumpToNextMonth": "Move forward to switch to the next month.",
-                                    "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                                    "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                          select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                                    "keyboardShortcuts": "Keyboard Shortcuts",
-                                    "leftArrowRightArrow": "Right and left arrow keys",
-                                    "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                                    "moveFocusByOneMonth": "Switch months.",
-                                    "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                                    "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                                    "openThisPanel": "Open this panel.",
-                                    "pageUpPageDown": "page up and page down keys",
-                                    "questionMark": "Question mark",
-                                    "returnFocusToInput": "Return to the date input field.",
-                                    "selectFocusedDate": "Select the date in focus.",
-                                    "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                                    "upArrowDownArrow": "up and down arrow keys",
-                                  }
+              Object {
+                "calendarLabel": "Calendar",
+                "chooseAvailableDate": [Function],
+                "clearDate": "Clear Date",
+                "closeDatePicker": "Close",
+                "dateIsSelected": [Function],
+                "dateIsUnavailable": [Function],
+                "enterKey": "Enter key",
+                "escape": "Escape key",
+                "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                "homeEnd": "Home and end keys",
+                "jumpToNextMonth": "Move forward to switch to the next month.",
+                "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                "keyboardShortcuts": "Keyboard Shortcuts",
+                "leftArrowRightArrow": "Right and left arrow keys",
+                "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                "moveFocusByOneMonth": "Switch months.",
+                "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                "openThisPanel": "Open this panel.",
+                "pageUpPageDown": "page up and page down keys",
+                "questionMark": "Question mark",
+                "returnFocusToInput": "Return to the date input field.",
+                "selectFocusedDate": "Select the date in focus.",
+                "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                "upArrowDownArrow": "up and down arrow keys",
+              }
             }
             placeholder="Date"
             readOnly={false}
             regular={false}
-            renderCalendarDay={undefined}
             renderCalendarInfo={null}
             renderDayContents={null}
             renderMonthElement={null}
@@ -1729,26 +1712,25 @@ ShallowWrapper {
             showClearDate={false}
             showDefaultInputIcon={false}
             small={false}
-            transitionDuration={undefined}
             verticalHeight={null}
             verticalSpacing={22}
             weekDayFormat="dd"
             withFullScreenPortal={false}
             withPortal={false}
-/>,
+          />,
           <textarea
             className="textarea"
             onChange={[Function]}
             placeholder="Add a note for your expense (optional)"
             value=""
-/>,
+          />,
           <div>
             <button
-                        className="button"
+              className="button"
             >
-                        Save Expense
+              Save Expense
             </button>
-</div>,
+          </div>,
         ],
         "className": "form",
         "onSubmit": [Function],
@@ -1906,9 +1888,9 @@ ShallowWrapper {
           "props": Object {
             "children": <button
               className="button"
->
+            >
               Save Expense
-</button>,
+            </button>,
           },
           "ref": null,
           "rendered": Object {
@@ -1970,9 +1952,9 @@ ShallowWrapper {
       "children": Array [
         <p
           className="form__error"
->
+        >
           Please provide description and amount.
-</p>,
+        </p>,
         <input
           autoFocus={true}
           className="text-input"
@@ -1980,14 +1962,14 @@ ShallowWrapper {
           placeholder="Description"
           type="text"
           value=""
-/>,
+        />,
         <input
           className="text-input"
           onChange={[Function]}
           placeholder="Amount"
           type="text"
           value=""
-/>,
+        />,
         <withStyles(SingleDatePicker)
           anchorDirection="left"
           appendToBody={false}
@@ -1996,7 +1978,6 @@ ShallowWrapper {
           customCloseIcon={null}
           customInputIcon={null}
           date={"1970-01-01T00:00:00.000Z"}
-          dayAriaLabelFormat={undefined}
           daySize={39}
           disableScroll={false}
           disabled={false}
@@ -2029,40 +2010,39 @@ ShallowWrapper {
           openDirection="down"
           orientation="horizontal"
           phrases={
-                    Object {
-                              "calendarLabel": "Calendar",
-                              "chooseAvailableDate": [Function],
-                              "clearDate": "Clear Date",
-                              "closeDatePicker": "Close",
-                              "dateIsSelected": [Function],
-                              "dateIsUnavailable": [Function],
-                              "enterKey": "Enter key",
-                              "escape": "Escape key",
-                              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                              "homeEnd": "Home and end keys",
-                              "jumpToNextMonth": "Move forward to switch to the next month.",
-                              "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                      select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                              "keyboardShortcuts": "Keyboard Shortcuts",
-                              "leftArrowRightArrow": "Right and left arrow keys",
-                              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                              "moveFocusByOneMonth": "Switch months.",
-                              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                              "openThisPanel": "Open this panel.",
-                              "pageUpPageDown": "page up and page down keys",
-                              "questionMark": "Question mark",
-                              "returnFocusToInput": "Return to the date input field.",
-                              "selectFocusedDate": "Select the date in focus.",
-                              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                              "upArrowDownArrow": "up and down arrow keys",
-                            }
+            Object {
+              "calendarLabel": "Calendar",
+              "chooseAvailableDate": [Function],
+              "clearDate": "Clear Date",
+              "closeDatePicker": "Close",
+              "dateIsSelected": [Function],
+              "dateIsUnavailable": [Function],
+              "enterKey": "Enter key",
+              "escape": "Escape key",
+              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+              "homeEnd": "Home and end keys",
+              "jumpToNextMonth": "Move forward to switch to the next month.",
+              "jumpToPrevMonth": "Move backward to switch to the previous month.",
+              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+              "keyboardShortcuts": "Keyboard Shortcuts",
+              "leftArrowRightArrow": "Right and left arrow keys",
+              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+              "moveFocusByOneMonth": "Switch months.",
+              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+              "openThisPanel": "Open this panel.",
+              "pageUpPageDown": "page up and page down keys",
+              "questionMark": "Question mark",
+              "returnFocusToInput": "Return to the date input field.",
+              "selectFocusedDate": "Select the date in focus.",
+              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+              "upArrowDownArrow": "up and down arrow keys",
+            }
           }
           placeholder="Date"
           readOnly={false}
           regular={false}
-          renderCalendarDay={undefined}
           renderCalendarInfo={null}
           renderDayContents={null}
           renderMonthElement={null}
@@ -2073,26 +2053,25 @@ ShallowWrapper {
           showClearDate={false}
           showDefaultInputIcon={false}
           small={false}
-          transitionDuration={undefined}
           verticalHeight={null}
           verticalSpacing={22}
           weekDayFormat="dd"
           withFullScreenPortal={false}
           withPortal={false}
-/>,
+        />,
         <textarea
           className="textarea"
           onChange={[Function]}
           placeholder="Add a note for your expense (optional)"
           value=""
-/>,
+        />,
         <div>
           <button
-                    className="button"
+            className="button"
           >
-                    Save Expense
+            Save Expense
           </button>
-</div>,
+        </div>,
       ],
       "className": "form",
       "onSubmit": [Function],
@@ -2261,9 +2240,9 @@ ShallowWrapper {
         "props": Object {
           "children": <button
             className="button"
->
+          >
             Save Expense
-</button>,
+          </button>,
         },
         "ref": null,
         "rendered": Object {
@@ -2292,9 +2271,9 @@ ShallowWrapper {
         "children": Array [
           <p
             className="form__error"
->
+          >
             Please provide description and amount.
-</p>,
+          </p>,
           <input
             autoFocus={true}
             className="text-input"
@@ -2302,14 +2281,14 @@ ShallowWrapper {
             placeholder="Description"
             type="text"
             value=""
-/>,
+          />,
           <input
             className="text-input"
             onChange={[Function]}
             placeholder="Amount"
             type="text"
             value=""
-/>,
+          />,
           <withStyles(SingleDatePicker)
             anchorDirection="left"
             appendToBody={false}
@@ -2318,7 +2297,6 @@ ShallowWrapper {
             customCloseIcon={null}
             customInputIcon={null}
             date={"1970-01-01T00:00:00.000Z"}
-            dayAriaLabelFormat={undefined}
             daySize={39}
             disableScroll={false}
             disabled={false}
@@ -2351,40 +2329,39 @@ ShallowWrapper {
             openDirection="down"
             orientation="horizontal"
             phrases={
-                        Object {
-                                    "calendarLabel": "Calendar",
-                                    "chooseAvailableDate": [Function],
-                                    "clearDate": "Clear Date",
-                                    "closeDatePicker": "Close",
-                                    "dateIsSelected": [Function],
-                                    "dateIsUnavailable": [Function],
-                                    "enterKey": "Enter key",
-                                    "escape": "Escape key",
-                                    "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                                    "homeEnd": "Home and end keys",
-                                    "jumpToNextMonth": "Move forward to switch to the next month.",
-                                    "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                                    "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                          select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                                    "keyboardShortcuts": "Keyboard Shortcuts",
-                                    "leftArrowRightArrow": "Right and left arrow keys",
-                                    "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                                    "moveFocusByOneMonth": "Switch months.",
-                                    "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                                    "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                                    "openThisPanel": "Open this panel.",
-                                    "pageUpPageDown": "page up and page down keys",
-                                    "questionMark": "Question mark",
-                                    "returnFocusToInput": "Return to the date input field.",
-                                    "selectFocusedDate": "Select the date in focus.",
-                                    "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                                    "upArrowDownArrow": "up and down arrow keys",
-                                  }
+              Object {
+                "calendarLabel": "Calendar",
+                "chooseAvailableDate": [Function],
+                "clearDate": "Clear Date",
+                "closeDatePicker": "Close",
+                "dateIsSelected": [Function],
+                "dateIsUnavailable": [Function],
+                "enterKey": "Enter key",
+                "escape": "Escape key",
+                "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                "homeEnd": "Home and end keys",
+                "jumpToNextMonth": "Move forward to switch to the next month.",
+                "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                "keyboardShortcuts": "Keyboard Shortcuts",
+                "leftArrowRightArrow": "Right and left arrow keys",
+                "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                "moveFocusByOneMonth": "Switch months.",
+                "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                "openThisPanel": "Open this panel.",
+                "pageUpPageDown": "page up and page down keys",
+                "questionMark": "Question mark",
+                "returnFocusToInput": "Return to the date input field.",
+                "selectFocusedDate": "Select the date in focus.",
+                "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                "upArrowDownArrow": "up and down arrow keys",
+              }
             }
             placeholder="Date"
             readOnly={false}
             regular={false}
-            renderCalendarDay={undefined}
             renderCalendarInfo={null}
             renderDayContents={null}
             renderMonthElement={null}
@@ -2395,26 +2372,25 @@ ShallowWrapper {
             showClearDate={false}
             showDefaultInputIcon={false}
             small={false}
-            transitionDuration={undefined}
             verticalHeight={null}
             verticalSpacing={22}
             weekDayFormat="dd"
             withFullScreenPortal={false}
             withPortal={false}
-/>,
+          />,
           <textarea
             className="textarea"
             onChange={[Function]}
             placeholder="Add a note for your expense (optional)"
             value=""
-/>,
+          />,
           <div>
             <button
-                        className="button"
+              className="button"
             >
-                        Save Expense
+              Save Expense
             </button>
-</div>,
+          </div>,
         ],
         "className": "form",
         "onSubmit": [Function],
@@ -2583,9 +2559,9 @@ ShallowWrapper {
           "props": Object {
             "children": <button
               className="button"
->
+            >
               Save Expense
-</button>,
+            </button>,
           },
           "ref": null,
           "rendered": Object {

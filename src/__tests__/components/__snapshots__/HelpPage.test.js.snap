@@ -19,39 +19,39 @@ ShallowWrapper {
       "children": Array [
         <h1>
           Budget app!
-</h1>,
+        </h1>,
         <nav>
           <ul>
-                    <li>
-                              <NavLink
-                                        activeClassName="is-active"
-                                        aria-current="page"
-                                        exact={true}
-                                        to="/"
-                              >
-                                        Home
-                              </NavLink>
-                    </li>
-                    <li>
-                              <NavLink
-                                        activeClassName="is-active"
-                                        aria-current="page"
-                                        to="/create"
-                              >
-                                        Create Expense
-                              </NavLink>
-                    </li>
-                    <li>
-                              <NavLink
-                                        activeClassName="is-active"
-                                        aria-current="page"
-                                        to="/help"
-                              >
-                                        Help
-                              </NavLink>
-                    </li>
+            <li>
+              <NavLink
+                activeClassName="is-active"
+                aria-current="page"
+                exact={true}
+                to="/"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                activeClassName="is-active"
+                aria-current="page"
+                to="/create"
+              >
+                Create Expense
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                activeClassName="is-active"
+                aria-current="page"
+                to="/help"
+              >
+                Help
+              </NavLink>
+            </li>
           </ul>
-</nav>,
+        </nav>,
       ],
     },
     "ref": null,
@@ -74,34 +74,34 @@ ShallowWrapper {
         "props": Object {
           "children": <ul>
             <li>
-                        <NavLink
-                                    activeClassName="is-active"
-                                    aria-current="page"
-                                    exact={true}
-                                    to="/"
-                        >
-                                    Home
-                        </NavLink>
+              <NavLink
+                activeClassName="is-active"
+                aria-current="page"
+                exact={true}
+                to="/"
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-                        <NavLink
-                                    activeClassName="is-active"
-                                    aria-current="page"
-                                    to="/create"
-                        >
-                                    Create Expense
-                        </NavLink>
+              <NavLink
+                activeClassName="is-active"
+                aria-current="page"
+                to="/create"
+              >
+                Create Expense
+              </NavLink>
             </li>
             <li>
-                        <NavLink
-                                    activeClassName="is-active"
-                                    aria-current="page"
-                                    to="/help"
-                        >
-                                    Help
-                        </NavLink>
+              <NavLink
+                activeClassName="is-active"
+                aria-current="page"
+                to="/help"
+              >
+                Help
+              </NavLink>
             </li>
-</ul>,
+          </ul>,
         },
         "ref": null,
         "rendered": Object {
@@ -112,32 +112,32 @@ ShallowWrapper {
             "children": Array [
               <li>
                 <NavLink
-                                activeClassName="is-active"
-                                aria-current="page"
-                                exact={true}
-                                to="/"
+                  activeClassName="is-active"
+                  aria-current="page"
+                  exact={true}
+                  to="/"
                 >
-                                Home
+                  Home
                 </NavLink>
-</li>,
+              </li>,
               <li>
                 <NavLink
-                                activeClassName="is-active"
-                                aria-current="page"
-                                to="/create"
+                  activeClassName="is-active"
+                  aria-current="page"
+                  to="/create"
                 >
-                                Create Expense
+                  Create Expense
                 </NavLink>
-</li>,
+              </li>,
               <li>
                 <NavLink
-                                activeClassName="is-active"
-                                aria-current="page"
-                                to="/help"
+                  activeClassName="is-active"
+                  aria-current="page"
+                  to="/help"
                 >
-                                Help
+                  Help
                 </NavLink>
-</li>,
+              </li>,
             ],
           },
           "ref": null,
@@ -152,9 +152,9 @@ ShallowWrapper {
                   aria-current="page"
                   exact={true}
                   to="/"
->
+                >
                   Home
-</NavLink>,
+                </NavLink>,
               },
               "ref": null,
               "rendered": Object {
@@ -183,9 +183,9 @@ ShallowWrapper {
                   activeClassName="is-active"
                   aria-current="page"
                   to="/create"
->
+                >
                   Create Expense
-</NavLink>,
+                </NavLink>,
               },
               "ref": null,
               "rendered": Object {
@@ -213,9 +213,9 @@ ShallowWrapper {
                   activeClassName="is-active"
                   aria-current="page"
                   to="/help"
->
+                >
                   Help
-</NavLink>,
+                </NavLink>,
               },
               "ref": null,
               "rendered": Object {
@@ -251,39 +251,39 @@ ShallowWrapper {
         "children": Array [
           <h1>
             Budget app!
-</h1>,
+          </h1>,
           <nav>
             <ul>
-                        <li>
-                                    <NavLink
-                                                activeClassName="is-active"
-                                                aria-current="page"
-                                                exact={true}
-                                                to="/"
-                                    >
-                                                Home
-                                    </NavLink>
-                        </li>
-                        <li>
-                                    <NavLink
-                                                activeClassName="is-active"
-                                                aria-current="page"
-                                                to="/create"
-                                    >
-                                                Create Expense
-                                    </NavLink>
-                        </li>
-                        <li>
-                                    <NavLink
-                                                activeClassName="is-active"
-                                                aria-current="page"
-                                                to="/help"
-                                    >
-                                                Help
-                                    </NavLink>
-                        </li>
+              <li>
+                <NavLink
+                  activeClassName="is-active"
+                  aria-current="page"
+                  exact={true}
+                  to="/"
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  activeClassName="is-active"
+                  aria-current="page"
+                  to="/create"
+                >
+                  Create Expense
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  activeClassName="is-active"
+                  aria-current="page"
+                  to="/help"
+                >
+                  Help
+                </NavLink>
+              </li>
             </ul>
-</nav>,
+          </nav>,
         ],
       },
       "ref": null,
@@ -306,34 +306,34 @@ ShallowWrapper {
           "props": Object {
             "children": <ul>
               <li>
-                            <NavLink
-                                          activeClassName="is-active"
-                                          aria-current="page"
-                                          exact={true}
-                                          to="/"
-                            >
-                                          Home
-                            </NavLink>
+                <NavLink
+                  activeClassName="is-active"
+                  aria-current="page"
+                  exact={true}
+                  to="/"
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                            <NavLink
-                                          activeClassName="is-active"
-                                          aria-current="page"
-                                          to="/create"
-                            >
-                                          Create Expense
-                            </NavLink>
+                <NavLink
+                  activeClassName="is-active"
+                  aria-current="page"
+                  to="/create"
+                >
+                  Create Expense
+                </NavLink>
               </li>
               <li>
-                            <NavLink
-                                          activeClassName="is-active"
-                                          aria-current="page"
-                                          to="/help"
-                            >
-                                          Help
-                            </NavLink>
+                <NavLink
+                  activeClassName="is-active"
+                  aria-current="page"
+                  to="/help"
+                >
+                  Help
+                </NavLink>
               </li>
-</ul>,
+            </ul>,
           },
           "ref": null,
           "rendered": Object {
@@ -344,32 +344,32 @@ ShallowWrapper {
               "children": Array [
                 <li>
                   <NavLink
-                                    activeClassName="is-active"
-                                    aria-current="page"
-                                    exact={true}
-                                    to="/"
+                    activeClassName="is-active"
+                    aria-current="page"
+                    exact={true}
+                    to="/"
                   >
-                                    Home
+                    Home
                   </NavLink>
-</li>,
+                </li>,
                 <li>
                   <NavLink
-                                    activeClassName="is-active"
-                                    aria-current="page"
-                                    to="/create"
+                    activeClassName="is-active"
+                    aria-current="page"
+                    to="/create"
                   >
-                                    Create Expense
+                    Create Expense
                   </NavLink>
-</li>,
+                </li>,
                 <li>
                   <NavLink
-                                    activeClassName="is-active"
-                                    aria-current="page"
-                                    to="/help"
+                    activeClassName="is-active"
+                    aria-current="page"
+                    to="/help"
                   >
-                                    Help
+                    Help
                   </NavLink>
-</li>,
+                </li>,
               ],
             },
             "ref": null,
@@ -384,9 +384,9 @@ ShallowWrapper {
                     aria-current="page"
                     exact={true}
                     to="/"
->
+                  >
                     Home
-</NavLink>,
+                  </NavLink>,
                 },
                 "ref": null,
                 "rendered": Object {
@@ -415,9 +415,9 @@ ShallowWrapper {
                     activeClassName="is-active"
                     aria-current="page"
                     to="/create"
->
+                  >
                     Create Expense
-</NavLink>,
+                  </NavLink>,
                 },
                 "ref": null,
                 "rendered": Object {
@@ -445,9 +445,9 @@ ShallowWrapper {
                     activeClassName="is-active"
                     aria-current="page"
                     to="/help"
->
+                  >
                     Help
-</NavLink>,
+                  </NavLink>,
                 },
                 "ref": null,
                 "rendered": Object {
