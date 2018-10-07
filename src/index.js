@@ -12,7 +12,7 @@ store.dispatch(startSetExpenses()).then(() => {
   ReactDOM.render(<App store={store}/>, document.getElementById('root'));
 })
 
-
+console.log(process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'test') {
   dotenv.config({ path: '.env.test'});
 } else if(process.env.NODE_ENV === 'development') {
