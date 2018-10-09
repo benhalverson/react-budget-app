@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { EditExpensesPage } from '../../components/EditExpensePage';
+import configureStore from 'redux-mock-store';
+import ConnectedEditExpensesPage, { EditExpensesPage } from '../../components/EditExpensePage';
 
 const expenses = [
   {
@@ -43,4 +44,18 @@ test('should handle startRemoveExpense', () => {
   expect(startRemoveExpense).toHaveBeenLastCalledWith({
     id: expenses[0].id
   });
+});
+
+test('should render with props from redux', () => {
+  const mockStore = configureStore();
+  const store = mockStore({
+    expenses,
+  });
+  const wrapper = shallow(<ConnectedEditExpensesPage
+    startEditExpense={startEditExpense}
+    startRemoveExpense={startRemoveExpense}
+    history={history}
+    match={{ params: { id: '1' } }}
+    store={store} />);
+  expect(wrapper.props().expense).toEqual(expenses[0]);
 });

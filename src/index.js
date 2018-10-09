@@ -10,7 +10,7 @@ ReactDOM.render(<p>Loading...</p>, document.getElementById('root'));
 
 store.dispatch(startSetExpenses()).then(() => {
   ReactDOM.render(<App store={store}/>, document.getElementById('root'));
-})
+});
 
 console.log(process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'test') {

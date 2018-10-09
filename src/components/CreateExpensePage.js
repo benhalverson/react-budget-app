@@ -20,8 +20,4 @@ export class CreateExpensePage extends Component {
   }
 }
 
-const mapDispatchToProps = (dispatch) => ({
-  startAddExpense: (expense) => dispatch(startAddExpense(expense))
-});
-
-export default connect(undefined, mapDispatchToProps)(CreateExpensePage);
+export default connect(undefined, { startAddExpense })(CreateExpensePage);

@@ -1,7 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import moment from 'moment';
-import {ExpenseListFilters} from '../../components/ExpenseListFilters';
+import configureStore from 'redux-mock-store';
+import ConnectedExpenseListFilters, {ExpenseListFilters} from '../../components/ExpenseListFilters';
 import { filters, altFilters } from '../../__fixtures__/filters';
 
 
@@ -75,4 +76,12 @@ test('should handle date focus changes', () => {
   const calendarFocused = 'endDate';
   wrapper.find('withStyles(DateRangePicker)').prop('onFocusChange')(calendarFocused);
   expect(wrapper.state('calendarFocused')).toBe(calendarFocused);
+});
+
+test('should render ExpenseListFilters with props from redux', () => {
+  const mockStore = configureStore();
+  const store = mockStore({ filters })
+  const wrapper = shallow(<ConnectedExpenseListFilters store={store} />);
+
+  expect(wrapper.props().filters).toEqual(filters);
 });

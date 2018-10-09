@@ -1,7 +1,8 @@
 import moment from 'moment';
 import React from 'react';
+import configureStore from 'redux-mock-store';
 import { shallow } from 'enzyme';
-import { ExpenseList } from '../../components/ExpenseList';
+import ConnectedExpenseList, { ExpenseList } from '../../components/ExpenseList';
 
 const expenses = [
   {
@@ -29,7 +30,7 @@ const expenses = [
       .add(4, 'days')
       .valueOf()
   }
-]; 
+];
 
 
 test('should render ExpenseList with expenses', () => {
@@ -37,6 +38,14 @@ test('should render ExpenseList with expenses', () => {
 
   expect(wrapper).toMatchSnapshot();
 })
+
+test('should render ExpenseList with expenses from redux', () => {
+  const mockStore = configureStore();
+  const store = mockStore({ expenses, filters: { text: '' } });
+  const wrapper = shallow(<ConnectedExpenseList store={store} />);
+
+  expect(wrapper.props().expenses).toEqual(expenses);
+});
 
 test('should render ExpenseList with empty message', () => {
   const wrapper = shallow(<ExpenseList expenses={[]}/>);

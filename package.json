@@ -35,5 +35,8 @@
     "react-test-renderer": "16.4.2",
     "redux-mock-store": "1.5.3",
     "standard-version": "4.4.0"
+  },
+  "jest": {
+    "collectCoverageFrom": ["src/**/*.{js,jsx}", "!src/index.js"]
   }
 }
