@@ -5,19 +5,19 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseListFilters
     filters={
-        Object {
-            "endDate": undefined,
-            "sortBy": "date",
-            "startDate": undefined,
-            "text": "",
-          }
+      Object {
+        "endDate": undefined,
+        "sortBy": "date",
+        "startDate": undefined,
+        "text": "",
+      }
     }
-    setEndDate={[Function]}
-    setStartDate={[Function]}
-    setTextFilter={[Function]}
-    sortByAmount={[Function]}
-    sortByDate={[Function]}
-/>,
+    setEndDate={[MockFunction]}
+    setStartDate={[MockFunction]}
+    setTextFilter={[MockFunction]}
+    sortByAmount={[MockFunction]}
+    sortByDate={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -35,22 +35,22 @@ ShallowWrapper {
           onChange={[Function]}
           type="text"
           value=""
-/>,
+        />,
         <select
           onChange={[Function]}
           value="date"
->
+        >
           <option
-                    value="date"
+            value="date"
           >
-                    Date
+            Date
           </option>
           <option
-                    value="amount"
+            value="amount"
           >
-                    Amount
+            Amount
           </option>
-</select>,
+        </select>,
         <withStyles(DateRangePicker)
           anchorDirection="left"
           appendToBody={false}
@@ -59,7 +59,6 @@ ShallowWrapper {
           customArrowIcon={null}
           customCloseIcon={null}
           customInputIcon={null}
-          dayAriaLabelFormat={undefined}
           daySize={39}
           disableScroll={false}
           disabled={false}
@@ -94,41 +93,40 @@ ShallowWrapper {
           openDirection="down"
           orientation="horizontal"
           phrases={
-                    Object {
-                              "calendarLabel": "Calendar",
-                              "chooseAvailableEndDate": [Function],
-                              "chooseAvailableStartDate": [Function],
-                              "clearDates": "Clear Dates",
-                              "closeDatePicker": "Close",
-                              "dateIsSelected": [Function],
-                              "dateIsUnavailable": [Function],
-                              "enterKey": "Enter key",
-                              "escape": "Escape key",
-                              "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
-                              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                              "homeEnd": "Home and end keys",
-                              "jumpToNextMonth": "Move forward to switch to the next month.",
-                              "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                      select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                              "keyboardShortcuts": "Keyboard Shortcuts",
-                              "leftArrowRightArrow": "Right and left arrow keys",
-                              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                              "moveFocusByOneMonth": "Switch months.",
-                              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                              "openThisPanel": "Open this panel.",
-                              "pageUpPageDown": "page up and page down keys",
-                              "questionMark": "Question mark",
-                              "returnFocusToInput": "Return to the date input field.",
-                              "selectFocusedDate": "Select the date in focus.",
-                              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                              "upArrowDownArrow": "up and down arrow keys",
-                            }
+            Object {
+              "calendarLabel": "Calendar",
+              "chooseAvailableEndDate": [Function],
+              "chooseAvailableStartDate": [Function],
+              "clearDates": "Clear Dates",
+              "closeDatePicker": "Close",
+              "dateIsSelected": [Function],
+              "dateIsUnavailable": [Function],
+              "enterKey": "Enter key",
+              "escape": "Escape key",
+              "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
+              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+              "homeEnd": "Home and end keys",
+              "jumpToNextMonth": "Move forward to switch to the next month.",
+              "jumpToPrevMonth": "Move backward to switch to the previous month.",
+              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+              "keyboardShortcuts": "Keyboard Shortcuts",
+              "leftArrowRightArrow": "Right and left arrow keys",
+              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+              "moveFocusByOneMonth": "Switch months.",
+              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+              "openThisPanel": "Open this panel.",
+              "pageUpPageDown": "page up and page down keys",
+              "questionMark": "Question mark",
+              "returnFocusToInput": "Return to the date input field.",
+              "selectFocusedDate": "Select the date in focus.",
+              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+              "upArrowDownArrow": "up and down arrow keys",
+            }
           }
           readOnly={false}
           regular={false}
-          renderCalendarDay={undefined}
           renderCalendarInfo={null}
           renderDayContents={null}
           renderMonthElement={null}
@@ -142,13 +140,12 @@ ShallowWrapper {
           startDate={null}
           startDateId="START_DATE"
           startDatePlaceholderText="Start Date"
-          transitionDuration={undefined}
           verticalHeight={null}
           verticalSpacing={22}
           weekDayFormat="dd"
           withFullScreenPortal={false}
           withPortal={false}
-/>,
+        />,
       ],
     },
     "ref": null,
@@ -174,14 +171,14 @@ ShallowWrapper {
           "children": Array [
             <option
               value="date"
->
+            >
               Date
-</option>,
+            </option>,
             <option
               value="amount"
->
+            >
               Amount
-</option>,
+            </option>,
           ],
           "onChange": [Function],
           "value": "date",
@@ -333,22 +330,22 @@ ShallowWrapper {
             onChange={[Function]}
             type="text"
             value=""
-/>,
+          />,
           <select
             onChange={[Function]}
             value="date"
->
+          >
             <option
-                        value="date"
+              value="date"
             >
-                        Date
+              Date
             </option>
             <option
-                        value="amount"
+              value="amount"
             >
-                        Amount
+              Amount
             </option>
-</select>,
+          </select>,
           <withStyles(DateRangePicker)
             anchorDirection="left"
             appendToBody={false}
@@ -357,7 +354,6 @@ ShallowWrapper {
             customArrowIcon={null}
             customCloseIcon={null}
             customInputIcon={null}
-            dayAriaLabelFormat={undefined}
             daySize={39}
             disableScroll={false}
             disabled={false}
@@ -392,41 +388,40 @@ ShallowWrapper {
             openDirection="down"
             orientation="horizontal"
             phrases={
-                        Object {
-                                    "calendarLabel": "Calendar",
-                                    "chooseAvailableEndDate": [Function],
-                                    "chooseAvailableStartDate": [Function],
-                                    "clearDates": "Clear Dates",
-                                    "closeDatePicker": "Close",
-                                    "dateIsSelected": [Function],
-                                    "dateIsUnavailable": [Function],
-                                    "enterKey": "Enter key",
-                                    "escape": "Escape key",
-                                    "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
-                                    "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                                    "homeEnd": "Home and end keys",
-                                    "jumpToNextMonth": "Move forward to switch to the next month.",
-                                    "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                                    "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                          select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                                    "keyboardShortcuts": "Keyboard Shortcuts",
-                                    "leftArrowRightArrow": "Right and left arrow keys",
-                                    "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                                    "moveFocusByOneMonth": "Switch months.",
-                                    "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                                    "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                                    "openThisPanel": "Open this panel.",
-                                    "pageUpPageDown": "page up and page down keys",
-                                    "questionMark": "Question mark",
-                                    "returnFocusToInput": "Return to the date input field.",
-                                    "selectFocusedDate": "Select the date in focus.",
-                                    "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                                    "upArrowDownArrow": "up and down arrow keys",
-                                  }
+              Object {
+                "calendarLabel": "Calendar",
+                "chooseAvailableEndDate": [Function],
+                "chooseAvailableStartDate": [Function],
+                "clearDates": "Clear Dates",
+                "closeDatePicker": "Close",
+                "dateIsSelected": [Function],
+                "dateIsUnavailable": [Function],
+                "enterKey": "Enter key",
+                "escape": "Escape key",
+                "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
+                "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                "homeEnd": "Home and end keys",
+                "jumpToNextMonth": "Move forward to switch to the next month.",
+                "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                "keyboardShortcuts": "Keyboard Shortcuts",
+                "leftArrowRightArrow": "Right and left arrow keys",
+                "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                "moveFocusByOneMonth": "Switch months.",
+                "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                "openThisPanel": "Open this panel.",
+                "pageUpPageDown": "page up and page down keys",
+                "questionMark": "Question mark",
+                "returnFocusToInput": "Return to the date input field.",
+                "selectFocusedDate": "Select the date in focus.",
+                "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                "upArrowDownArrow": "up and down arrow keys",
+              }
             }
             readOnly={false}
             regular={false}
-            renderCalendarDay={undefined}
             renderCalendarInfo={null}
             renderDayContents={null}
             renderMonthElement={null}
@@ -440,13 +435,12 @@ ShallowWrapper {
             startDate={null}
             startDateId="START_DATE"
             startDatePlaceholderText="Start Date"
-            transitionDuration={undefined}
             verticalHeight={null}
             verticalSpacing={22}
             weekDayFormat="dd"
             withFullScreenPortal={false}
             withPortal={false}
-/>,
+          />,
         ],
       },
       "ref": null,
@@ -472,14 +466,14 @@ ShallowWrapper {
             "children": Array [
               <option
                 value="date"
->
+              >
                 Date
-</option>,
+              </option>,
               <option
                 value="amount"
->
+              >
                 Amount
-</option>,
+              </option>,
             ],
             "onChange": [Function],
             "value": "date",
@@ -648,19 +642,19 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseListFilters
     filters={
-        Object {
-            "endDate": "1970-01-04T00:00:00.000Z",
-            "sortBy": "amount",
-            "startDate": "1970-01-01T00:00:00.000Z",
-            "text": "g",
-          }
+      Object {
+        "endDate": "1970-01-04T00:00:00.000Z",
+        "sortBy": "amount",
+        "startDate": "1970-01-01T00:00:00.000Z",
+        "text": "g",
+      }
     }
-    setEndDate={[Function]}
-    setStartDate={[Function]}
-    setTextFilter={[Function]}
-    sortByAmount={[Function]}
-    sortByDate={[Function]}
-/>,
+    setEndDate={[MockFunction]}
+    setStartDate={[MockFunction]}
+    setTextFilter={[MockFunction]}
+    sortByAmount={[MockFunction]}
+    sortByDate={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -678,22 +672,22 @@ ShallowWrapper {
           onChange={[Function]}
           type="text"
           value="g"
-/>,
+        />,
         <select
           onChange={[Function]}
           value="amount"
->
+        >
           <option
-                    value="date"
+            value="date"
           >
-                    Date
+            Date
           </option>
           <option
-                    value="amount"
+            value="amount"
           >
-                    Amount
+            Amount
           </option>
-</select>,
+        </select>,
         <withStyles(DateRangePicker)
           anchorDirection="left"
           appendToBody={false}
@@ -702,7 +696,6 @@ ShallowWrapper {
           customArrowIcon={null}
           customCloseIcon={null}
           customInputIcon={null}
-          dayAriaLabelFormat={undefined}
           daySize={39}
           disableScroll={false}
           disabled={false}
@@ -737,41 +730,40 @@ ShallowWrapper {
           openDirection="down"
           orientation="horizontal"
           phrases={
-                    Object {
-                              "calendarLabel": "Calendar",
-                              "chooseAvailableEndDate": [Function],
-                              "chooseAvailableStartDate": [Function],
-                              "clearDates": "Clear Dates",
-                              "closeDatePicker": "Close",
-                              "dateIsSelected": [Function],
-                              "dateIsUnavailable": [Function],
-                              "enterKey": "Enter key",
-                              "escape": "Escape key",
-                              "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
-                              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                              "homeEnd": "Home and end keys",
-                              "jumpToNextMonth": "Move forward to switch to the next month.",
-                              "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                      select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                              "keyboardShortcuts": "Keyboard Shortcuts",
-                              "leftArrowRightArrow": "Right and left arrow keys",
-                              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                              "moveFocusByOneMonth": "Switch months.",
-                              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                              "openThisPanel": "Open this panel.",
-                              "pageUpPageDown": "page up and page down keys",
-                              "questionMark": "Question mark",
-                              "returnFocusToInput": "Return to the date input field.",
-                              "selectFocusedDate": "Select the date in focus.",
-                              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                              "upArrowDownArrow": "up and down arrow keys",
-                            }
+            Object {
+              "calendarLabel": "Calendar",
+              "chooseAvailableEndDate": [Function],
+              "chooseAvailableStartDate": [Function],
+              "clearDates": "Clear Dates",
+              "closeDatePicker": "Close",
+              "dateIsSelected": [Function],
+              "dateIsUnavailable": [Function],
+              "enterKey": "Enter key",
+              "escape": "Escape key",
+              "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
+              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+              "homeEnd": "Home and end keys",
+              "jumpToNextMonth": "Move forward to switch to the next month.",
+              "jumpToPrevMonth": "Move backward to switch to the previous month.",
+              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+              "keyboardShortcuts": "Keyboard Shortcuts",
+              "leftArrowRightArrow": "Right and left arrow keys",
+              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+              "moveFocusByOneMonth": "Switch months.",
+              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+              "openThisPanel": "Open this panel.",
+              "pageUpPageDown": "page up and page down keys",
+              "questionMark": "Question mark",
+              "returnFocusToInput": "Return to the date input field.",
+              "selectFocusedDate": "Select the date in focus.",
+              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+              "upArrowDownArrow": "up and down arrow keys",
+            }
           }
           readOnly={false}
           regular={false}
-          renderCalendarDay={undefined}
           renderCalendarInfo={null}
           renderDayContents={null}
           renderMonthElement={null}
@@ -785,13 +777,12 @@ ShallowWrapper {
           startDate={"1970-01-01T00:00:00.000Z"}
           startDateId="START_DATE"
           startDatePlaceholderText="Start Date"
-          transitionDuration={undefined}
           verticalHeight={null}
           verticalSpacing={22}
           weekDayFormat="dd"
           withFullScreenPortal={false}
           withPortal={false}
-/>,
+        />,
       ],
     },
     "ref": null,
@@ -817,14 +808,14 @@ ShallowWrapper {
           "children": Array [
             <option
               value="date"
->
+            >
               Date
-</option>,
+            </option>,
             <option
               value="amount"
->
+            >
               Amount
-</option>,
+            </option>,
           ],
           "onChange": [Function],
           "value": "amount",
@@ -976,22 +967,22 @@ ShallowWrapper {
             onChange={[Function]}
             type="text"
             value="g"
-/>,
+          />,
           <select
             onChange={[Function]}
             value="amount"
->
+          >
             <option
-                        value="date"
+              value="date"
             >
-                        Date
+              Date
             </option>
             <option
-                        value="amount"
+              value="amount"
             >
-                        Amount
+              Amount
             </option>
-</select>,
+          </select>,
           <withStyles(DateRangePicker)
             anchorDirection="left"
             appendToBody={false}
@@ -1000,7 +991,6 @@ ShallowWrapper {
             customArrowIcon={null}
             customCloseIcon={null}
             customInputIcon={null}
-            dayAriaLabelFormat={undefined}
             daySize={39}
             disableScroll={false}
             disabled={false}
@@ -1035,41 +1025,40 @@ ShallowWrapper {
             openDirection="down"
             orientation="horizontal"
             phrases={
-                        Object {
-                                    "calendarLabel": "Calendar",
-                                    "chooseAvailableEndDate": [Function],
-                                    "chooseAvailableStartDate": [Function],
-                                    "clearDates": "Clear Dates",
-                                    "closeDatePicker": "Close",
-                                    "dateIsSelected": [Function],
-                                    "dateIsUnavailable": [Function],
-                                    "enterKey": "Enter key",
-                                    "escape": "Escape key",
-                                    "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
-                                    "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
-                                    "homeEnd": "Home and end keys",
-                                    "jumpToNextMonth": "Move forward to switch to the next month.",
-                                    "jumpToPrevMonth": "Move backward to switch to the previous month.",
-                                    "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
-                          select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
-                                    "keyboardShortcuts": "Keyboard Shortcuts",
-                                    "leftArrowRightArrow": "Right and left arrow keys",
-                                    "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
-                                    "moveFocusByOneMonth": "Switch months.",
-                                    "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
-                                    "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
-                                    "openThisPanel": "Open this panel.",
-                                    "pageUpPageDown": "page up and page down keys",
-                                    "questionMark": "Question mark",
-                                    "returnFocusToInput": "Return to the date input field.",
-                                    "selectFocusedDate": "Select the date in focus.",
-                                    "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
-                                    "upArrowDownArrow": "up and down arrow keys",
-                                  }
+              Object {
+                "calendarLabel": "Calendar",
+                "chooseAvailableEndDate": [Function],
+                "chooseAvailableStartDate": [Function],
+                "clearDates": "Clear Dates",
+                "closeDatePicker": "Close",
+                "dateIsSelected": [Function],
+                "dateIsUnavailable": [Function],
+                "enterKey": "Enter key",
+                "escape": "Escape key",
+                "focusStartDate": "Interact with the calendar and add the check-in date for your trip.",
+                "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                "homeEnd": "Home and end keys",
+                "jumpToNextMonth": "Move forward to switch to the next month.",
+                "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                "keyboardShortcuts": "Keyboard Shortcuts",
+                "leftArrowRightArrow": "Right and left arrow keys",
+                "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                "moveFocusByOneMonth": "Switch months.",
+                "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                "openThisPanel": "Open this panel.",
+                "pageUpPageDown": "page up and page down keys",
+                "questionMark": "Question mark",
+                "returnFocusToInput": "Return to the date input field.",
+                "selectFocusedDate": "Select the date in focus.",
+                "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                "upArrowDownArrow": "up and down arrow keys",
+              }
             }
             readOnly={false}
             regular={false}
-            renderCalendarDay={undefined}
             renderCalendarInfo={null}
             renderDayContents={null}
             renderMonthElement={null}
@@ -1083,13 +1072,12 @@ ShallowWrapper {
             startDate={"1970-01-01T00:00:00.000Z"}
             startDateId="START_DATE"
             startDatePlaceholderText="Start Date"
-            transitionDuration={undefined}
             verticalHeight={null}
             verticalSpacing={22}
             weekDayFormat="dd"
             withFullScreenPortal={false}
             withPortal={false}
-/>,
+          />,
         ],
       },
       "ref": null,
@@ -1115,14 +1103,14 @@ ShallowWrapper {
             "children": Array [
               <option
                 value="date"
->
+              >
                 Date
-</option>,
+              </option>,
               <option
                 value="amount"
->
+              >
                 Amount
-</option>,
+              </option>,
             ],
             "onChange": [Function],
             "value": "amount",

@@ -9,7 +9,7 @@ ShallowWrapper {
     description="Gum"
     id="1"
     note=""
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -26,16 +26,16 @@ ShallowWrapper {
         <Link
           replace={false}
           to="/edit/1"
->
+        >
           <h3>
-                    Gum
+            Gum
           </h3>
-</Link>,
+        </Link>,
         <p>
           $1.95
            - 
-          January 1st, 1970
-</p>,
+          December 31st, 1969
+        </p>,
       ],
     },
     "ref": null,
@@ -47,7 +47,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             Gum
-</h3>,
+          </h3>,
           "replace": false,
           "to": "/edit/1",
         },
@@ -73,14 +73,14 @@ ShallowWrapper {
           "children": Array [
             "$1.95",
             " - ",
-            "January 1st, 1970",
+            "December 31st, 1969",
           ],
         },
         "ref": null,
         "rendered": Array [
           "$1.95",
           " - ",
-          "January 1st, 1970",
+          "December 31st, 1969",
         ],
         "type": "p",
       },
@@ -97,16 +97,16 @@ ShallowWrapper {
           <Link
             replace={false}
             to="/edit/1"
->
+          >
             <h3>
-                        Gum
+              Gum
             </h3>
-</Link>,
+          </Link>,
           <p>
             $1.95
              - 
-            January 1st, 1970
-</p>,
+            December 31st, 1969
+          </p>,
         ],
       },
       "ref": null,
@@ -118,7 +118,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               Gum
-</h3>,
+            </h3>,
             "replace": false,
             "to": "/edit/1",
           },
@@ -144,14 +144,14 @@ ShallowWrapper {
             "children": Array [
               "$1.95",
               " - ",
-              "January 1st, 1970",
+              "December 31st, 1969",
             ],
           },
           "ref": null,
           "rendered": Array [
             "$1.95",
             " - ",
-            "January 1st, 1970",
+            "December 31st, 1969",
           ],
           "type": "p",
         },

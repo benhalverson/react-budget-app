@@ -21,9 +21,9 @@ ShallowWrapper {
         <Link
           replace={false}
           to="/"
->
+        >
           Go Home
-</Link>,
+        </Link>,
       ],
     },
     "ref": null,
@@ -56,9 +56,9 @@ ShallowWrapper {
           <Link
             replace={false}
             to="/"
->
+          >
             Go Home
-</Link>,
+          </Link>,
         ],
       },
       "ref": null,

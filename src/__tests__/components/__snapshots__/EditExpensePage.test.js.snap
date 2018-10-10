@@ -5,22 +5,22 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <EditExpensesPage
     expense={
-        Object {
-            "amount": 195,
-            "createdAt": 0,
-            "description": "Gum",
-            "id": "1",
-            "note": "",
-          }
+      Object {
+        "amount": 195,
+        "createdAt": 0,
+        "description": "Gum",
+        "id": "1",
+        "note": "",
+      }
     }
     history={
-        Object {
-            "push": [Function],
-          }
+      Object {
+        "push": [MockFunction],
+      }
     }
-    startEditExpense={[Function]}
-    startRemoveExpense={[Function]}
-/>,
+    startEditExpense={[MockFunction]}
+    startRemoveExpense={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -36,21 +36,21 @@ ShallowWrapper {
       "children": Array [
         <ExpenseForm
           expense={
-                    Object {
-                              "amount": 195,
-                              "createdAt": 0,
-                              "description": "Gum",
-                              "id": "1",
-                              "note": "",
-                            }
+            Object {
+              "amount": 195,
+              "createdAt": 0,
+              "description": "Gum",
+              "id": "1",
+              "note": "",
+            }
           }
           onSubmit={[Function]}
-/>,
+        />,
         <button
           onClick={[Function]}
->
+        >
           Remove
-</button>,
+        </button>,
       ],
     },
     "ref": null,
@@ -97,21 +97,21 @@ ShallowWrapper {
         "children": Array [
           <ExpenseForm
             expense={
-                        Object {
-                                    "amount": 195,
-                                    "createdAt": 0,
-                                    "description": "Gum",
-                                    "id": "1",
-                                    "note": "",
-                                  }
+              Object {
+                "amount": 195,
+                "createdAt": 0,
+                "description": "Gum",
+                "id": "1",
+                "note": "",
+              }
             }
             onSubmit={[Function]}
-/>,
+          />,
           <button
             onClick={[Function]}
->
+          >
             Remove
-</button>,
+          </button>,
         ],
       },
       "ref": null,

@@ -19,28 +19,28 @@ ShallowWrapper {
       "children": <div>
         <Header />
         <Switch>
-                <Route
-                        component={[Function]}
-                        exact={true}
-                        path="/"
-                />
-                <Route
-                        component={[Function]}
-                        path="/create"
-                />
-                <Route
-                        component={[Function]}
-                        path="/edit/:id"
-                />
-                <Route
-                        component={[Function]}
-                        path="/help"
-                />
-                <Route
-                        component={[Function]}
-                />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/"
+          />
+          <Route
+            component={[Function]}
+            path="/create"
+          />
+          <Route
+            component={[Function]}
+            path="/edit/:id"
+          />
+          <Route
+            component={[Function]}
+            path="/help"
+          />
+          <Route
+            component={[Function]}
+          />
         </Switch>
-</div>,
+      </div>,
     },
     "ref": null,
     "rendered": Object {
@@ -52,26 +52,26 @@ ShallowWrapper {
           <Header />,
           <Switch>
             <Route
-                        component={[Function]}
-                        exact={true}
-                        path="/"
+              component={[Function]}
+              exact={true}
+              path="/"
             />
             <Route
-                        component={[Function]}
-                        path="/create"
+              component={[Function]}
+              path="/create"
             />
             <Route
-                        component={[Function]}
-                        path="/edit/:id"
+              component={[Function]}
+              path="/edit/:id"
             />
             <Route
-                        component={[Function]}
-                        path="/help"
+              component={[Function]}
+              path="/help"
             />
             <Route
-                        component={[Function]}
+              component={[Function]}
             />
-</Switch>,
+          </Switch>,
         ],
       },
       "ref": null,
@@ -95,22 +95,22 @@ ShallowWrapper {
                 component={[Function]}
                 exact={true}
                 path="/"
-/>,
+              />,
               <Route
                 component={[Function]}
                 path="/create"
-/>,
+              />,
               <Route
                 component={[Function]}
                 path="/edit/:id"
-/>,
+              />,
               <Route
                 component={[Function]}
                 path="/help"
-/>,
+              />,
               <Route
                 component={[Function]}
-/>,
+              />,
             ],
           },
           "ref": null,
@@ -192,28 +192,28 @@ ShallowWrapper {
         "children": <div>
           <Header />
           <Switch>
-                    <Route
-                              component={[Function]}
-                              exact={true}
-                              path="/"
-                    />
-                    <Route
-                              component={[Function]}
-                              path="/create"
-                    />
-                    <Route
-                              component={[Function]}
-                              path="/edit/:id"
-                    />
-                    <Route
-                              component={[Function]}
-                              path="/help"
-                    />
-                    <Route
-                              component={[Function]}
-                    />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/"
+            />
+            <Route
+              component={[Function]}
+              path="/create"
+            />
+            <Route
+              component={[Function]}
+              path="/edit/:id"
+            />
+            <Route
+              component={[Function]}
+              path="/help"
+            />
+            <Route
+              component={[Function]}
+            />
           </Switch>
-</div>,
+        </div>,
       },
       "ref": null,
       "rendered": Object {
@@ -225,26 +225,26 @@ ShallowWrapper {
             <Header />,
             <Switch>
               <Route
-                            component={[Function]}
-                            exact={true}
-                            path="/"
+                component={[Function]}
+                exact={true}
+                path="/"
               />
               <Route
-                            component={[Function]}
-                            path="/create"
+                component={[Function]}
+                path="/create"
               />
               <Route
-                            component={[Function]}
-                            path="/edit/:id"
+                component={[Function]}
+                path="/edit/:id"
               />
               <Route
-                            component={[Function]}
-                            path="/help"
+                component={[Function]}
+                path="/help"
               />
               <Route
-                            component={[Function]}
+                component={[Function]}
               />
-</Switch>,
+            </Switch>,
           ],
         },
         "ref": null,
@@ -268,22 +268,22 @@ ShallowWrapper {
                   component={[Function]}
                   exact={true}
                   path="/"
-/>,
+                />,
                 <Route
                   component={[Function]}
                   path="/create"
-/>,
+                />,
                 <Route
                   component={[Function]}
                   path="/edit/:id"
-/>,
+                />,
                 <Route
                   component={[Function]}
                   path="/help"
-/>,
+                />,
                 <Route
                   component={[Function]}
-/>,
+                />,
               ],
             },
             "ref": null,
