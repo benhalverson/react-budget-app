@@ -34,7 +34,7 @@ ShallowWrapper {
         <p>
           $1.95
            - 
-          December 31st, 1969
+          January 1st, 1970
 </p>,
       ],
     },
@@ -73,14 +73,14 @@ ShallowWrapper {
           "children": Array [
             "$1.95",
             " - ",
-            "December 31st, 1969",
+            "January 1st, 1970",
           ],
         },
         "ref": null,
         "rendered": Array [
           "$1.95",
           " - ",
-          "December 31st, 1969",
+          "January 1st, 1970",
         ],
         "type": "p",
       },
@@ -105,7 +105,7 @@ ShallowWrapper {
           <p>
             $1.95
              - 
-            December 31st, 1969
+            January 1st, 1970
 </p>,
         ],
       },
@@ -144,14 +144,14 @@ ShallowWrapper {
             "children": Array [
               "$1.95",
               " - ",
-              "December 31st, 1969",
+              "January 1st, 1970",
             ],
           },
           "ref": null,
           "rendered": Array [
             "$1.95",
             " - ",
-            "December 31st, 1969",
+            "January 1st, 1970",
           ],
           "type": "p",
         },

@@ -31,7 +31,7 @@ test('should setup removeExpense action object', () => {
   });
 });
 
-xtest('should remove expense from firebase', done => {
+test('should remove expense from firebase', done => {
   const store = createMockStore({});
   const id = expenses[2].id;
   store

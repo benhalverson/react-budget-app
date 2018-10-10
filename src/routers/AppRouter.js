@@ -7,19 +7,20 @@ import HelpPage from '../components/HelpPage';
 import Header from '../components/Header';
 import NotFoundPage from '../components/NotFoundPage';
 import '../App.css';
+
 const AppRouter = () => (
   <BrowserRouter>
-  <div>
-    <Header />
-    <Switch>
-    <Route path="/" component={ExpenseDashboardPage} exact={true}/>
-    <Route path="/create" component={CreateExpensesPage}/>
-    <Route path="/edit/:id" component={EditExpensesPage}/>
-    <Route path="/help" component={HelpPage}/>
-    <Route component={NotFoundPage}/>
-    </Switch>
-  </div>
-  
+    <div>
+      <Header />
+      <Switch>
+      <Route path="/" component={ExpenseDashboardPage} exact={true}/>
+      <Route path="/create" component={CreateExpensesPage}/>
+      <Route path="/edit/:id" component={EditExpensesPage}/>
+      <Route path="/help" component={HelpPage}/>
+      <Route component={NotFoundPage}/>
+      </Switch>
+    </div>
   </BrowserRouter>
-)
+);
+
 export default AppRouter;
