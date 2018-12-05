@@ -1,3 +1,6 @@
+[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/benhalverson_marketplace/benhalverson%2Freact-budget-app%2Freact-budget-app?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NWJiOWY1MzkyMGRlNTg2ZjdlMzY4MTIz.dHB-gxXA3GnCwwmCG2iTbmMYoD4F-woIRN3Uu3Qom9g&type=cf-1)]( https://g.codefresh.io/repositories/benhalverson/react-budget-app/builds?filter=trigger:build;branch:master;service:5bb9f5affd33fdbeaf62358a~react-budget-app)
+
+
 ## API keys are required from firebase 
 https://firebase.google.com/docs/web/setup?authuser=0
 
