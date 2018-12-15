@@ -14,7 +14,16 @@ exports[`should render header correctly 1`] = `
           exact={true}
           to="/"
         >
-          Home
+          Login
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          activeClassName="is-active"
+          aria-current="page"
+          to="/dashboard"
+        >
+          Dashboard
         </NavLink>
       </li>
       <li>
