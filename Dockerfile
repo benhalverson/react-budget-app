@@ -1,11 +1,26 @@
-FROM node:latest
+FROM node:10.14.1-alpine
 
-RUN mkdir /usr/src/app
-COPY . /usr/src/app
+# Set up our workspace
+WORKDIR /usr/app
 
-WORKDIR /usr/src/app
+# Install app dependencies
+COPY ./package.json ./package-lock.json ./
+RUN npm install --quiet
 
-RUN npm i --silent
+# App source
+COPY . .
 
+# Ports
 EXPOSE 3000
-CMD ["npm", "start"]
+
+# Default Command
+CMD ["npm", "run", "start"]
+# RUN mkdir /usr/src/app
+# COPY . /usr/src/app
+
+# WORKDIR /usr/src/app
+
+# RUN npm i --silent
+
+# EXPOSE 3000
+# CMD ["npm", "start"]

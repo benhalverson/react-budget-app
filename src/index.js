@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { firebase } from './firebase/firebase';
 import './index.css';
 import App from './App';
 import { startSetExpenses } from './actions/expenses';
@@ -18,3 +19,11 @@ if (process.env.NODE_ENV === 'test') {
 } else if(process.env.NODE_ENV === 'development') {
   dotenv.config({ path: '.env.development'});
 }
+
+firebase.auth().onAuthStateChanged((user) => {
+  if (user) {
+    console.log('log in');
+  } else {
+    console.log('log out');
+  }
+});
