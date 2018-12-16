@@ -5,7 +5,7 @@ WORKDIR /usr/app
 
 # Install app dependencies
 COPY ./package.json ./package-lock.json ./
-RUN npm install --quiet
+RUN npm install --quiet --production
 
 # App source
 COPY . .
