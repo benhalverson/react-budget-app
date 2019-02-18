@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/benhalverson/react-budget-app/compare/v0.1.0...v0.2.0) (2019-02-18)
+
+
+### Bug Fixes
+
+* **Header:** Added missing dashboard link ([925799a](https://github.com/benhalverson/react-budget-app/commit/925799a))
+
+
+### Features
+
+* **LoginPage:** you can now login with google now ([76ccf6c](https://github.com/benhalverson/react-budget-app/commit/76ccf6c))
+* **Logout:** added Logout feature ([aa51889](https://github.com/benhalverson/react-budget-app/commit/aa51889))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2018-10-07)
 
