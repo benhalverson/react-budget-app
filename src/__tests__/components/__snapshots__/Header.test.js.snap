@@ -1,50 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render header correctly 1`] = `
-<header>
-  <h1>
-    Budget app!
-  </h1>
-  <nav>
-    <ul>
-      <li>
-        <NavLink
-          activeClassName="is-active"
-          aria-current="page"
-          exact={true}
-          to="/"
-        >
-          Login
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          activeClassName="is-active"
-          aria-current="page"
-          to="/dashboard"
-        >
-          Dashboard
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          activeClassName="is-active"
-          aria-current="page"
-          to="/create"
-        >
-          Create Expense
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          activeClassName="is-active"
-          aria-current="page"
-          to="/help"
-        >
-          Help
-        </NavLink>
-      </li>
-    </ul>
-  </nav>
-</header>
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
 `;
