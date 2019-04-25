@@ -7,7 +7,7 @@
     "history": "4.9.0",
     "moment": "2.24.0",
     "numeral": "2.0.6",
-    "react": "^16.8.3",
+    "react": "16.8.6",
     "react-dates": "20.1.0",
     "react-dom": "16.8.6",
     "react-redux": "7.0.2",
