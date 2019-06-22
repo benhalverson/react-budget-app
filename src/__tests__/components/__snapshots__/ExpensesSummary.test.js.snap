@@ -1,5 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+<<<<<<< HEAD
 exports[`should correctly render expenses summary with one expense 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
@@ -741,3 +742,8 @@ ShallowWrapper {
   },
 }
 `;
+=======
+exports[`should correctly render expenses summary with one expense 1`] = `ShallowWrapper {}`;
+
+exports[`should correctly render expenses summary with one expense 2`] = `ShallowWrapper {}`;
+>>>>>>> 8f1e6db18f79c6a0324d03d6b456b4287d930b58

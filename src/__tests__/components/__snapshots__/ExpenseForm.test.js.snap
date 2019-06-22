@@ -1,5 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+<<<<<<< HEAD
 exports[`should render ExpenseForm correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
@@ -2635,3 +2636,12 @@ ShallowWrapper {
   Symbol(enzyme.__childContext__): null,
 }
 `;
+=======
+exports[`should render ExpenseForm correctly 1`] = `ShallowWrapper {}`;
+
+exports[`should render ExpenseForm correctly with expense data 1`] = `ShallowWrapper {}`;
+
+exports[`should render error for invalid form submission 1`] = `ShallowWrapper {}`;
+
+exports[`should render error for invalid form submission 2`] = `ShallowWrapper {}`;
+>>>>>>> 8f1e6db18f79c6a0324d03d6b456b4287d930b58
