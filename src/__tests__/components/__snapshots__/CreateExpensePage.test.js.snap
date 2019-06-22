@@ -1,6 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-<<<<<<< HEAD
 exports[`should render AddExpensePage correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
@@ -132,6 +131,3 @@ ShallowWrapper {
   Symbol(enzyme.__childContext__): null,
 }
 `;
-=======
-exports[`should render AddExpensePage correctly 1`] = `ShallowWrapper {}`;
->>>>>>> 8f1e6db18f79c6a0324d03d6b456b4287d930b58
