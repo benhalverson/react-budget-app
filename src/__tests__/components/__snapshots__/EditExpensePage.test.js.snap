@@ -1,3 +1,185 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+<<<<<<< HEAD
+exports[`should render EditExpensePage 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EditExpensesPage
+    expense={
+      Object {
+        "amount": 195,
+        "createdAt": 0,
+        "description": "Gum",
+        "id": "1",
+        "note": "",
+      }
+    }
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    startEditExpense={[MockFunction]}
+    startRemoveExpense={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ExpenseForm
+          expense={
+            Object {
+              "amount": 195,
+              "createdAt": 0,
+              "description": "Gum",
+              "id": "1",
+              "note": "",
+            }
+          }
+          onSubmit={[Function]}
+        />,
+        <button
+          onClick={[Function]}
+        >
+          Remove
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "expense": Object {
+            "amount": 195,
+            "createdAt": 0,
+            "description": "Gum",
+            "id": "1",
+            "note": "",
+          },
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Remove",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Remove",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ExpenseForm
+            expense={
+              Object {
+                "amount": 195,
+                "createdAt": 0,
+                "description": "Gum",
+                "id": "1",
+                "note": "",
+              }
+            }
+            onSubmit={[Function]}
+          />,
+          <button
+            onClick={[Function]}
+          >
+            Remove
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "expense": Object {
+              "amount": 195,
+              "createdAt": 0,
+              "description": "Gum",
+              "id": "1",
+              "note": "",
+            },
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Remove",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+=======
 exports[`should render EditExpensePage 1`] = `ShallowWrapper {}`;
+>>>>>>> 8f1e6db18f79c6a0324d03d6b456b4287d930b58
