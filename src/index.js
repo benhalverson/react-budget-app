@@ -18,11 +18,6 @@ if (process.env.NODE_ENV === 'test') {
   dotenv.config({ path: '.env.test'});
 } else if(process.env.NODE_ENV === 'development') {
   dotenv.config({ path: '.env.development'});
-<<<<<<< HEAD
-} else if(process.env.NODE_ENV === 'production') {
-  dotenv.config({path: '.env.production.local'})
-}
-=======
 }
 
 firebase.auth().onAuthStateChanged((user) => {
@@ -32,4 +27,3 @@ firebase.auth().onAuthStateChanged((user) => {
     console.log('log out');
   }
 });
->>>>>>> 8f1e6db18f79c6a0324d03d6b456b4287d930b58
