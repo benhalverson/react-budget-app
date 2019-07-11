@@ -3,7 +3,7 @@
   "version": "0.2.1",
   "private": true,
   "dependencies": {
-    "firebase": "6.2.4",
+    "firebase": "6.3.0",
     "history": "4.9.0",
     "moment": "2.24.0",
     "numeral": "2.0.6",
