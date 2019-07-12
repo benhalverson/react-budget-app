@@ -1,6 +1,26 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [0.3.0](https://github.com/benhalverson/react-budget-app/compare/v0.2.1...v0.3.0) (2019-07-12)
+
+
+### Build System
+
+* **package.json:** updated react-scipts to 2.x ([8a92b79](https://github.com/benhalverson/react-budget-app/commit/8a92b79)), closes [#3](https://github.com/benhalverson/react-budget-app/issues/3)
+
+
+### Features
+
+* **header:** logging in with firebase works now ([2e9a938](https://github.com/benhalverson/react-budget-app/commit/2e9a938))
+
+
+### Tests
+
+* **snapshots:** updated snapshot tests ([c61235f](https://github.com/benhalverson/react-budget-app/commit/c61235f))
+* **tests:** updated snapshots ([3d647c9](https://github.com/benhalverson/react-budget-app/commit/3d647c9))
+
+
 
 ## [0.2.1](https://github.com/benhalverson/react-budget-app/compare/v0.2.0...v0.2.1) (2019-02-25)
 
