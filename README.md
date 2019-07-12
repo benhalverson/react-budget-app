@@ -6,7 +6,22 @@
 
 https://react-budget-app.netlify.com/
 
-Two ways to try out the code
+## What is this?
+
+This is a demo app to showcase how I would setup a front-end app using react with tests.
+
+### Technology
+
+- create-react-app cli
+- redux
+- firebase
+- moment
+- thunk
+- jest
+- enzyme
+- and lots more
+
+## Two ways to try out the code
 
 - git clone and run the code with create-react-app
 - use Docker and docker-compose
