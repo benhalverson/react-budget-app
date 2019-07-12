@@ -1,29 +1,45 @@
-import dotenv from 'dotenv';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { firebase } from './firebase/firebase';
-import './index.css';
-import App from './App';
-import { startSetExpenses } from './actions/expenses';
+import { Provider } from 'react-redux';
+import AppRouter, { history } from './routers/AppRouter';
 import configureStore from './store/configureStore';
+import { startSetExpenses } from './actions/expenses';
+import { login, logout } from './actions/auth';
+import 'normalize.css/normalize.css';
+import './styles/styles.scss';
+import 'react-dates/lib/css/_datepicker.css';
+import { firebase } from './firebase/firebase';
+
 const store = configureStore();
+const jsx = (
+  <Provider store={store}>
+    <AppRouter />
+  </Provider>
+);
+let hasRendered = false;
+const renderApp = () => {
+  if (!hasRendered) {
+    ReactDOM.render(jsx, document.getElementById('root'));
+    hasRendered = true;
+  }
+};
+
 ReactDOM.render(<p>Loading...</p>, document.getElementById('root'));
 
-store.dispatch(startSetExpenses()).then(() => {
-  ReactDOM.render(<App store={store}/>, document.getElementById('root'));
-});
-
-console.log(process.env.NODE_ENV);
-if (process.env.NODE_ENV === 'test') {
-  dotenv.config({ path: '.env.test'});
-} else if(process.env.NODE_ENV === 'development') {
-  dotenv.config({ path: '.env.development'});
-}
-
-firebase.auth().onAuthStateChanged((user) => {
+firebase.auth().onAuthStateChanged(user => {
   if (user) {
-    console.log('log in');
+    console.log('user', user);
+    console.log('user id', user.uid);
+    store.dispatch(login(user.uid));
+    store.dispatch(startSetExpenses()).then(() => {
+      renderApp();
+      if (history.location.pathname === '/') {
+        history.push('/dashboard');
+      }
+    });
   } else {
-    console.log('log out');
+    store.dispatch(logout());
+    renderApp();
+    history.push('/');
   }
 });
