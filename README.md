@@ -19,6 +19,11 @@ Two ways to try out the code
 - `npm start`
 - browser to http://localhost:3000
 
+## Docker
+
+- install docker for mac or docker for windows
+- run `docker-compose up`
+
 ## API keys are required from firebase
 
 https://firebase.google.com/docs/web/setup?authuser=0
