@@ -30,7 +30,7 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "cross-env": "6.0.2",
+    "cross-env": "6.0.3",
     "dotenv": "8.1.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
