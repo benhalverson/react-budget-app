@@ -11,7 +11,7 @@ import 'react-dates/lib/css/_datepicker.css';
 import { firebase } from './firebase/firebase';
 
 const store = configureStore();
-const jsx = (
+export const Jsx = () => (
   <Provider store={store}>
     <AppRouter />
   </Provider>
@@ -19,7 +19,7 @@ const jsx = (
 let hasRendered = false;
 const renderApp = () => {
   if (!hasRendered) {
-    ReactDOM.render(jsx, document.getElementById('root'));
+    ReactDOM.render(<Jsx/>, document.getElementById('root'));
     hasRendered = true;
   }
 };

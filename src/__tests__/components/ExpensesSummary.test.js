@@ -46,5 +46,6 @@ test('should render Expenses summary with props from redux', () => {
   const mockStore = configureStore();
   const store = mockStore({ expenses, filters: { text: '' } });
   const wrapper = shallow(<ConnectedExpensesSummary store={store} />);
-  expect(wrapper.props().expenseCount).toEqual(3)
+  const { expenseCount } = wrapper.props().children.props;
+  expect(expenseCount).toEqual(3)
 });

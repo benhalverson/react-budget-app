@@ -44,7 +44,7 @@ test('should render ExpenseList with expenses from redux', () => {
   const store = mockStore({ expenses, filters: { text: '' } });
   const wrapper = shallow(<ConnectedExpenseList store={store} />);
 
-  expect(wrapper.props().expenses).toEqual(expenses);
+  expect(wrapper.props().children.props.expenses).toEqual(expenses);
 });
 
 test('should render ExpenseList with empty message', () => {
