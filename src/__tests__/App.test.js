@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import {Jsx} from "../index";
+import {Jsx} from '../index';
 import AppRouter from '../routers/AppRouter';
 
 test('renders <App /> correctly', () => {
