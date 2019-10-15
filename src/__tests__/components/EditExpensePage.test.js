@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import configureStore from 'redux-mock-store';
 import ConnectedEditExpensesPage, { EditExpensesPage } from '../../components/EditExpensePage';
 
@@ -11,7 +11,7 @@ const expenses = [
     amount: 195,
     createdAt: 0
   }
-]; 
+];
 let startEditExpense, startRemoveExpense, history, wrapper;
 
 beforeEach(() => {
@@ -57,5 +57,5 @@ test('should render with props from redux', () => {
     history={history}
     match={{ params: { id: '1' } }}
     store={store} />);
-  expect(wrapper.props().expense).toEqual(expenses[0]);
+  expect(wrapper.props().children.props.expense).toEqual(expenses[0]);
 });

@@ -70,7 +70,7 @@ test('should handle date changes', () => {
   wrapper.find('withStyles(DateRangePicker)').prop("onDatesChange")({ startDate, endDate });
   expect(setStartDate).toHaveBeenLastCalledWith(startDate);
   expect(setEndDate).toHaveBeenLastCalledWith(endDate);
-}) 
+})
 
 test('should handle date focus changes', () => {
   const calendarFocused = 'endDate';
@@ -82,6 +82,5 @@ test('should render ExpenseListFilters with props from redux', () => {
   const mockStore = configureStore();
   const store = mockStore({ filters })
   const wrapper = shallow(<ConnectedExpenseListFilters store={store} />);
-
-  expect(wrapper.props().filters).toEqual(filters);
+  expect(wrapper.props().children.props.filters).toEqual(filters);
 });
