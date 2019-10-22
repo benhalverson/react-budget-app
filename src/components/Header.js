@@ -1,19 +1,21 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { startLogout } from '../actions/auth';
+import { Navbar, Nav } from 'react-bootstrap';
 
 export const Header = ({ startLogout }) => (
-  <header>
-    <h1>Budget App!</h1>
-    <NavLink to="/dashboard" activeClassName="is-active">
-      Dashboard
-    </NavLink>
-    <NavLink to="/create" activeClassName="is-active">
-      Create Expense
-    </NavLink>
-    <button onClick={startLogout}>Logout</button>
-  </header>
+  <>
+    <Navbar bg='primary' variant='dark'>
+      <Navbar.Brand href='/dashboard'>Budget App</Navbar.Brand>
+      <Nav className='mr-auto'>
+        <Nav.Link href='/dashboard'>Dashboard</Nav.Link>
+        <Nav.Link href='/create'>Create Expense</Nav.Link>
+        <Nav.Link href='/' onClick={startLogout}>
+          Logout
+        </Nav.Link>
+      </Nav>
+    </Navbar>
+  </>
 );
 
 const mapDispatchToProps = dispatch => ({
