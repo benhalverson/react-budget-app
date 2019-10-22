@@ -20,6 +20,10 @@ export default class ExpenseForm extends Component {
     const description = e.target.value;
     this.setState(() => ({ description }));
   };
+  onCategoryChange = e => {
+    const category = e.target.value;
+    this.setState(() => ({ category }));
+  };
   onNoteChange = e => {
     const note = e.target.value;
     this.setState(() => ({ note }));
@@ -44,17 +48,19 @@ export default class ExpenseForm extends Component {
 
     if (!this.state.description || !this.state.amount) {
       this.setState(() => ({
-        error: 'Please provide description and amount.'
+        error: 'Please provide description, category, and amount.'
       }));
     } else {
       this.setState(() => ({ error: '' }));
       this.props.onSubmit({
         description: this.state.description,
         amount: parseFloat(this.state.amount, 10) * 100,
+        category: this.state.category,
         createdAt: this.state.createdAt.valueOf(),
         note: this.state.note
       });
     }
+    console.log(this.state.category);
   };
   render() {
     return (
@@ -67,6 +73,14 @@ export default class ExpenseForm extends Component {
           className="text-input"
           value={this.state.description}
           onChange={this.onDescriptionChange}
+        />
+        <input
+          type="text"
+          placeholder="Category"
+          autoFocus
+          className="text-input"
+          value={this.state.category}
+          onChange={this.onCategoryChange}
         />
         <input
           type="text"
