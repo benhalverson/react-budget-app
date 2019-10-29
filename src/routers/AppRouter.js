@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
+import createHistory from 'history/createBrowserHistory';
 import ExpenseDashboardPage from '../components/ExpenseDashboardPage';
 import CreateExpensesPage from '../components/CreateExpensePage';
 import EditExpensesPage from '../components/EditExpensePage';
@@ -9,7 +9,7 @@ import LoginPage from '../components/LoginPage';
 import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
 
-createBrowserHistory();
+export const history = createHistory();
 
 const AppRouter = () => (
   <Router history={history}>
