@@ -42,7 +42,7 @@
     "react-test-renderer": "16.11.0",
     "redux-mock-store": "1.5.3",
     "standard-version": "7.0.0",
-    "typescript": "3.6.4"
+    "typescript": "3.7.2"
   },
   "browserslist": [
     ">0.2%",
