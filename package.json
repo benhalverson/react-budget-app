@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "4.4.0",
+    "bootstrap": "4.4.1",
     "firebase": "7.5.0",
     "history": "4.10.1",
     "jquery": "3.4.1",
