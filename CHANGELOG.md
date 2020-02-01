@@ -2,6 +2,67 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/benhalverson/react-budget-app/compare/v0.3.0...v0.3.1) (2020-02-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency bootstrap to v4.4.0 ([4e36315](https://github.com/benhalverson/react-budget-app/commit/4e36315))
+* **deps:** update dependency bootstrap to v4.4.1 ([10a3074](https://github.com/benhalverson/react-budget-app/commit/10a3074))
+* **deps:** update dependency firebase to v6.3.1 ([0b7ea39](https://github.com/benhalverson/react-budget-app/commit/0b7ea39))
+* **deps:** update dependency firebase to v6.3.2 ([4e12c4d](https://github.com/benhalverson/react-budget-app/commit/4e12c4d))
+* **deps:** update dependency firebase to v6.3.3 ([e5609a1](https://github.com/benhalverson/react-budget-app/commit/e5609a1))
+* **deps:** update dependency firebase to v6.3.4 ([6745efe](https://github.com/benhalverson/react-budget-app/commit/6745efe))
+* **deps:** update dependency firebase to v6.5.0 ([522a45a](https://github.com/benhalverson/react-budget-app/commit/522a45a))
+* **deps:** update dependency firebase to v6.6.0 ([fe11821](https://github.com/benhalverson/react-budget-app/commit/fe11821))
+* **deps:** update dependency firebase to v6.6.1 ([fdd0936](https://github.com/benhalverson/react-budget-app/commit/fdd0936))
+* **deps:** update dependency firebase to v6.6.2 ([54978f0](https://github.com/benhalverson/react-budget-app/commit/54978f0))
+* **deps:** update dependency firebase to v7 ([de9022c](https://github.com/benhalverson/react-budget-app/commit/de9022c))
+* **deps:** update dependency firebase to v7.2.0 ([980a960](https://github.com/benhalverson/react-budget-app/commit/980a960))
+* **deps:** update dependency firebase to v7.2.3 ([df092ef](https://github.com/benhalverson/react-budget-app/commit/df092ef))
+* **deps:** update dependency firebase to v7.3.0 ([969511e](https://github.com/benhalverson/react-budget-app/commit/969511e))
+* **deps:** update dependency firebase to v7.4.0 ([0f6169e](https://github.com/benhalverson/react-budget-app/commit/0f6169e))
+* **deps:** update dependency firebase to v7.5.0 ([f6c3051](https://github.com/benhalverson/react-budget-app/commit/f6c3051))
+* **deps:** update dependency firebase to v7.5.1 ([1e94dc9](https://github.com/benhalverson/react-budget-app/commit/1e94dc9))
+* **deps:** update dependency firebase to v7.5.2 ([73e23c9](https://github.com/benhalverson/react-budget-app/commit/73e23c9))
+* **deps:** update dependency firebase to v7.6.0 ([9d455b1](https://github.com/benhalverson/react-budget-app/commit/9d455b1))
+* **deps:** update dependency history to v4.10.0 ([0b4284e](https://github.com/benhalverson/react-budget-app/commit/0b4284e))
+* **deps:** update dependency history to v4.10.1 ([daea371](https://github.com/benhalverson/react-budget-app/commit/daea371))
+* **deps:** update dependency react-bootstrap to v1.0.0-beta.15 ([ffc013b](https://github.com/benhalverson/react-budget-app/commit/ffc013b))
+* **deps:** update dependency react-bootstrap to v1.0.0-beta.16 ([cf68b88](https://github.com/benhalverson/react-budget-app/commit/cf68b88))
+* **deps:** update dependency react-dates to v21 ([3da025c](https://github.com/benhalverson/react-budget-app/commit/3da025c))
+* **deps:** update dependency react-dates to v21.0.1 ([ca108ac](https://github.com/benhalverson/react-budget-app/commit/ca108ac))
+* **deps:** update dependency react-dates to v21.1.0 ([77beaa8](https://github.com/benhalverson/react-budget-app/commit/77beaa8))
+* **deps:** update dependency react-dates to v21.2.0 ([b2ba5bf](https://github.com/benhalverson/react-budget-app/commit/b2ba5bf))
+* **deps:** update dependency react-dates to v21.2.1 ([b76116d](https://github.com/benhalverson/react-budget-app/commit/b76116d))
+* **deps:** update dependency react-dates to v21.3.2 ([ff9e91a](https://github.com/benhalverson/react-budget-app/commit/ff9e91a))
+* **deps:** update dependency react-dates to v21.4.0 ([fd1bf12](https://github.com/benhalverson/react-budget-app/commit/fd1bf12))
+* **deps:** update dependency react-dates to v21.5.0 ([549a4bf](https://github.com/benhalverson/react-budget-app/commit/549a4bf))
+* **deps:** update dependency react-dates to v21.5.1 ([b86478a](https://github.com/benhalverson/react-budget-app/commit/b86478a))
+* **deps:** update dependency react-redux to v7 ([6faa0e1](https://github.com/benhalverson/react-budget-app/commit/6faa0e1))
+* **deps:** update dependency react-redux to v7.1.3 ([c1c3ceb](https://github.com/benhalverson/react-budget-app/commit/c1c3ceb))
+* **deps:** update dependency react-router-dom to v5.1.0 ([1fdcc24](https://github.com/benhalverson/react-budget-app/commit/1fdcc24))
+* **deps:** update dependency react-router-dom to v5.1.1 ([d71b24d](https://github.com/benhalverson/react-budget-app/commit/d71b24d))
+* **deps:** update dependency react-router-dom to v5.1.2 ([a37111d](https://github.com/benhalverson/react-budget-app/commit/a37111d))
+* **deps:** update dependency react-scripts to v3.1.1 ([26f5d1d](https://github.com/benhalverson/react-budget-app/commit/26f5d1d))
+* **deps:** update dependency react-scripts to v3.1.2 ([78b6eab](https://github.com/benhalverson/react-budget-app/commit/78b6eab))
+* **deps:** update dependency react-scripts to v3.2.0 ([d1f622a](https://github.com/benhalverson/react-budget-app/commit/d1f622a))
+* **deps:** update dependency react-scripts to v3.3.0 ([3aa9560](https://github.com/benhalverson/react-budget-app/commit/3aa9560))
+* **deps:** update dependency uuid to v3.3.3 ([a33d73a](https://github.com/benhalverson/react-budget-app/commit/a33d73a))
+* **deps:** update react monorepo to v16.10.0 ([6490bf8](https://github.com/benhalverson/react-budget-app/commit/6490bf8))
+* **deps:** update react monorepo to v16.10.1 ([414149c](https://github.com/benhalverson/react-budget-app/commit/414149c))
+* **deps:** update react monorepo to v16.10.2 ([cda6265](https://github.com/benhalverson/react-budget-app/commit/cda6265))
+* **deps:** update react monorepo to v16.11.0 ([774c556](https://github.com/benhalverson/react-budget-app/commit/774c556))
+* **deps:** update react monorepo to v16.12.0 ([ffb8865](https://github.com/benhalverson/react-budget-app/commit/ffb8865))
+* **deps:** update react monorepo to v16.9.0 ([5780d97](https://github.com/benhalverson/react-budget-app/commit/5780d97))
+* **docker:** changed port ([2960ac3](https://github.com/benhalverson/react-budget-app/commit/2960ac3))
+* **router:** undo fix because it broke the app ([42d756e](https://github.com/benhalverson/react-budget-app/commit/42d756e))
+
+
+### Features
+
+* **new input:** added category input ([ad1471f](https://github.com/benhalverson/react-budget-app/commit/ad1471f))
+
 ## [0.3.0](https://github.com/benhalverson/react-budget-app/compare/v0.2.1...v0.3.0) (2019-07-12)
 
 
