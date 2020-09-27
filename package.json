@@ -41,7 +41,7 @@
     "raf": "3.4.1",
     "react-test-renderer": "16.13.0",
     "redux-mock-store": "1.5.4",
-    "standard-version": "8.0.1",
+    "standard-version": "8.0.2",
     "typescript": "3.8.3"
   },
   "browserslist": [
