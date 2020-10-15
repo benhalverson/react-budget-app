@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "4.5.2",
-    "firebase": "7.11.0",
+    "firebase": "7.24.0",
     "history": "4.10.1",
     "jquery": "3.5.0",
     "moment": "2.24.0",
