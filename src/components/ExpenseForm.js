@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { newD useState } from "react";
 import moment from "moment";
 import { SingleDatePicker } from "react-dates";
 import "react-dates/initialize";
@@ -19,27 +19,27 @@ export default function ExpenseForm({ expense, onSubmit }) {
   const [category, setCategory] = useState(null);
 
   const onDescriptionChange = e => {
-    const description = e.target.value;
-    setDescription(description);
+    const newDescription = e.target.value;
+    setDescription(newDescription);
   };
   const onCategoryChange = e => {
-    const category = e.target.value;
-    setCategory(category);
+    const newCategory = e.target.value;
+    setCategory(newCategory);
   };
   const onNoteChange = e => {
-    const note = e.target.value;
-    setNote(note);
+    const newNote = e.target.value;
+    setNote(newNote);
   };
   const onAmountChange = e => {
-    const amount = e.target.value;
+    const newAmount = e.target.value;
 
-    if (!amount || amount.match(/^\d{1,}(\.\d{0,2})?$/)) {
-      setAmount(amount);
+    if (!newAmount || newAmount.match(/^\d{1,}(\.\d{0,2})?$/)) {
+      setAmount(newAmount);
     }
   };
-  const onDateChange = createdAt => {
-    if (createdAt) {
-      setCreatedAt(createdAt);
+  const onDateChange = newCreatedAt => {
+    if (newCreatedAt) {
+      setCreatedAt(newCreatedAt);
     }
   };
   const onFocusChange = ({ focused }) => {
