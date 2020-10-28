@@ -1,7 +1,8 @@
 import React from "react";
-import { connect } from "react-redux";
-import { startLogin } from "../actions/auth";
+import { useDispatch } from "react-redux";
 import { Button, Card } from "react-bootstrap";
+
+import { startLogin } from "../actions/auth";
 
 const styling = {
   textAlign: "center",
@@ -22,38 +23,34 @@ const font = {
   fontWeight: "normal"
 };
 
-export const LoginPage = ({ startLogin }) => (
-  <div style={styling}>
-    <Card style={cardStyle}>
-      <Card.Body>
-        <Card.Title className='display-1 font-weight-bold'>
-          Budget Application
-        </Card.Title>
-        <hr></hr>
-        <Card.Text className='lead font-weight-lighter' style={font}>
-          This is a demo app using firebase and google to login. <br />
-          Once signed in you can add edit and remove expenses. <br />
-          The datepicker is the AirBnB datepicker that is slightly modified to
-          allow for selecting dates in the past.
-        </Card.Text>
-        <Button
-          as='input'
-          type='button'
-          value='Login'
-          size='lg'
-          onClick={startLogin}
-          onChange={() => {}}
-        />
-      </Card.Body>
-    </Card>
-  </div>
-);
+const LoginPage = () => {
+  const dispatch = useDispatch();
+  return (
+    <div style={styling}>
+      <Card style={cardStyle}>
+        <Card.Body>
+          <Card.Title className='display-1 font-weight-bold'>
+            Budget Application
+          </Card.Title>
+          <hr></hr>
+          <Card.Text className='lead font-weight-lighter' style={font}>
+            This is a demo app using firebase and google to login. <br />
+            Once signed in you can add edit and remove expenses. <br />
+            The datepicker is the AirBnB datepicker that is slightly modified to
+            allow for selecting dates in the past.
+          </Card.Text>
+          <Button
+            as='input'
+            type='button'
+            value='Login'
+            size='lg'
+            onClick={() => dispatch(startLogin())}
+            onChange={() => {}}
+          />
+        </Card.Body>
+      </Card>
+    </div>
+  );
+};
 
-const mapDispatchToProps = dispatch => ({
-  startLogin: () => dispatch(startLogin())
-});
-
-export default connect(
-  undefined,
-  mapDispatchToProps
-)(LoginPage);
+export default LoginPage;
