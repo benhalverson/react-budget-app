@@ -1,112 +1,110 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import moment from 'moment';
 import { SingleDatePicker } from 'react-dates';
 import 'react-dates/initialize';
 
-export default class ExpenseForm extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      description: props.expense ? props.expense.description : '',
-      note: props.expense ? props.expense.note : '',
-      amount: props.expense ? (props.expense.amount / 100).toString() : '',
-      createdAt: props.expense ? moment(props.expense.createdAt) : moment(),
-      calendarFocused: false,
-      error: ''
-    };
+function useInput({ initialValue, name }) {
+  const [value, setValue] = useState(initialValue);
+  function onChange(e) {
+    const updated = e.target.value;
+    setValue(updated);
   }
-  onDescriptionChange = e => {
-    const description = e.target.value;
-    this.setState(() => ({ description }));
-  };
-  onCategoryChange = e => {
-    const category = e.target.value;
-    this.setState(() => ({ category }));
-  };
-  onNoteChange = e => {
-    const note = e.target.value;
-    this.setState(() => ({ note }));
-  };
-  onAmountChange = e => {
+  return [value, onChange];
+}
+
+export default function ExpenseForm({ expense, onSubmit }) {
+  const [description, onDescriptionChange] = useInput(
+    expense ? expense.description : ''
+  );
+  const [note, onNoteChange] = useInput(expense ? expense.note : '');
+  const [category, onCategoryChange] = useInput(
+    expense ? expense.category : ''
+  );
+  const [amount, setAmount] = useState(
+    expense ? (expense.amount / 100).toString() : ''
+  );
+  const [createdAt, setCreatedAt] = useState(
+    expense ? moment(expense.createdAt) : moment()
+  );
+  const [calendarFocused, setCalendarFocused] = useState(false);
+  const [error, setError] = useState('');
+
+  function onAmountChange(e) {
     const amount = e.target.value;
 
     if (!amount || amount.match(/^\d{1,}(\.\d{0,2})?$/)) {
-      this.setState(() => ({ amount }));
+      setAmount(amount);
     }
-  };
-  onDateChange = createdAt => {
+  }
+  function onDateChange(createdAt) {
     if (createdAt) {
-      this.setState(() => ({ createdAt }));
+      setCreatedAt(createdAt);
     }
-  };
-  onFocusChange = ({ focused }) => {
-    this.setState(() => ({ calendarFocused: focused }));
-  };
-  onSubmit = e => {
+  }
+  function onFocusChange({ focused }) {
+    setCalendarFocused(focused);
+  }
+  function onFormSubmit(e) {
     e.preventDefault();
 
-    if (!this.state.description || !this.state.amount) {
-      this.setState(() => ({
-        error: 'Please provide description, category, and amount.'
-      }));
+    if (!description || !amount) {
+      setError('Please provide description, category, and amount.');
     } else {
-      this.setState(() => ({ error: '' }));
-      this.props.onSubmit({
-        description: this.state.description,
-        amount: parseFloat(this.state.amount, 10) * 100,
-        category: this.state.category,
-        createdAt: this.state.createdAt.valueOf(),
-        note: this.state.note
+      setError('');
+      onSubmit({
+        description,
+        amount: parseFloat(amount) * 100,
+        category,
+        createdAt: createdAt.valueOf(),
+        note,
       });
     }
-    console.log(this.state.category);
-  };
-  render() {
-    return (
-      <form className="form" onSubmit={this.onSubmit}>
-        {this.state.error && <p className="form__error">{this.state.error}</p>}
-        <input
-          type="text"
-          placeholder="Description"
-          autoFocus
-          className="text-input"
-          value={this.state.description}
-          onChange={this.onDescriptionChange}
-        />
-        <input
-          type="text"
-          placeholder="Category"
-          autoFocus
-          className="text-input"
-          value={this.state.category}
-          onChange={this.onCategoryChange}
-        />
-        <input
-          type="text"
-          placeholder="Amount"
-          className="text-input"
-          value={this.state.amount}
-          onChange={this.onAmountChange}
-        />
-        <SingleDatePicker
-          date={this.state.createdAt}
-          onDateChange={this.onDateChange}
-          focused={this.state.calendarFocused}
-          onFocusChange={this.onFocusChange}
-          numberOfMonths={1}
-          isOutsideRange={() => false}
-        />
-        <textarea
-          placeholder="Add a note for your expense (optional)"
-          className="textarea"
-          value={this.state.note}
-          onChange={this.onNoteChange}
-        />
-        <div>
-          <button className="button">Save Expense</button>
-        </div>
-      </form>
-    );
+    console.log(category);
   }
+
+  return (
+    <form className='form' onSubmit={onFormSubmit}>
+      {error && <p className='form__error'>{error}</p>}
+      <input
+        type='text'
+        placeholder='Description'
+        autoFocus
+        className='text-input'
+        value={description}
+        onChange={onDescriptionChange}
+      />
+      <input
+        type='text'
+        placeholder='Category'
+        autoFocus
+        className='text-input'
+        value={category}
+        onChange={onCategoryChange}
+      />
+      <input
+        type='text'
+        placeholder='Amount'
+        className='text-input'
+        value={amount}
+        onChange={onAmountChange}
+      />
+      <SingleDatePicker
+        date={createdAt}
+        onDateChange={onDateChange}
+        focused={calendarFocused}
+        onFocusChange={onFocusChange}
+        numberOfMonths={1}
+        isOutsideRange={() => false}
+      />
+      <textarea
+        placeholder='Add a note for your expense (optional)'
+        className='textarea'
+        value={note}
+        onChange={onNoteChange}
+      />
+      <div>
+        <button className='button'>Save Expense</button>
+      </div>
+    </form>
+  );
 }
