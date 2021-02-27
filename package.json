@@ -36,7 +36,7 @@
     "cross-env": "7.0.2",
     "dotenv": "8.2.0",
     "enzyme": "3.11.0",
-    "enzyme-adapter-react-16": "1.15.5",
+    "enzyme-adapter-react-16": "1.15.6",
     "enzyme-to-json": "3.6.1",
     "raf": "3.4.1",
     "react-test-renderer": "17.0.1",
