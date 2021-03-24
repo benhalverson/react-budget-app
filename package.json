@@ -6,7 +6,7 @@
     "bootstrap": "4.6.0",
     "firebase": "7.24.0",
     "history": "4.10.1",
-    "jquery": "3.5.1",
+    "jquery": "3.6.0",
     "moment": "2.29.1",
     "node-sass": "5.0.0",
     "normalize.css": "8.0.1",
