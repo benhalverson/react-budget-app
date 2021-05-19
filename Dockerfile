@@ -1,4 +1,4 @@
-FROM node:12.22.1
+FROM node:16.2.0
 
 # Set up our workspace
 WORKDIR /usr/app
